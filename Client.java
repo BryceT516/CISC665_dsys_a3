@@ -2,12 +2,13 @@
 
 import java.net.*;
 import java.io.*;
-public class TCPClient{
+public class Client{
 	public static void main (String args[]){
 		//arguments supply message and hostname of destination
 		Socket s = null;
 		try{
-			int serverPort = 7896;
+			int serverPort = Integer.parseInt(args[1]);
+			System.out.println("Client port: " + serverPort);
 			s = new Socket("localhost", serverPort);
 			DataInputStream in = new DataInputStream(s.getInputStream());
 			DataOutputStream out = new DataOutputStream(s.getOutputStream());
