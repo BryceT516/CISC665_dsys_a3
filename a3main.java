@@ -8,11 +8,12 @@ public class a3main {
 	
 	public static void main(String args[]) {
 
-		String ServerPort;
-		
-		StartServer docServer = new StartServer();
+		//Start up a logging server thread to collect information from the 
+		// components of the experiment.
+		String logServerPort;
+		StartServer logServer = new StartServer();
 
-		while(docServer.getPortNumber() == 0){
+		while(logServer.getPortNumber() == 0){
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e){
@@ -21,11 +22,27 @@ public class a3main {
 			
 		}
 
-		ServerPort = new String ().valueOf(docServer.getPortNumber());
+		logServerPort = new String ().valueOf(logServer.getPortNumber());
+
+		// Now launch the processes for the experiment, providing the logServerPort number
+		//Launch the document server:
+/*
+		try{
+			ProcessBuilder docServer = new ProcessBuilder("java.exe", "DocServer", "Doc Server", logServerPort);
+			docServer.inheritIO();
+			Process docServerProc = docServer.start();
+			
+			System.out.println("Document Server Process Started...");
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+*/
 
 		try {
-			ProcessBuilder client1 = new ProcessBuilder("java.exe", "Client", "Client 1", ServerPort);
-			ProcessBuilder client2 = new ProcessBuilder("java.exe", "Client", "Client 2", ServerPort);
+			ProcessBuilder client1 = new ProcessBuilder("java.exe", "Client", "Client 1", logServerPort);
+			ProcessBuilder client2 = new ProcessBuilder("java.exe", "Client", "Client 2", logServerPort);
+			client1.inheritIO();
+			client2.inheritIO();
 			Process runClient1 = client1.start();
 			Process runClient2 = client2.start();
 			
@@ -39,12 +56,12 @@ public class a3main {
 			e.printStackTrace();
 		}
 
-		docServer.terminate();
+		logServer.terminate();
 
 		System.out.println("Sent Terminate Signal");
 
 		try{
-			docServer.join();
+			logServer.join();
 		} catch (InterruptedException e){
 			System.out.println(e);
 		}
@@ -110,10 +127,17 @@ class Connection extends Thread{
 		} catch (IOException e) {System.out.println("Connection: "+e.getMessage());}
 	}
 	public void run(){
+		Boolean getMsgFlag = true;
 		try {	//An echo server
-			String data = in.readUTF();
-			System.out.println("Received: " + data);
-			out.writeUTF(data);
+			while(getMsgFlag){
+				String data = in.readUTF();
+				System.out.println("Received: " + data);
+				out.writeUTF(data);
+				if(data == "exit"){
+					getMsgFlag=false;
+				}
+			}
+			
 		} catch(EOFException e) {System.out.println("EOF: " +e.getMessage());
 		} catch(IOException e) {System.out.println("IO: "+e.getMessage());
 		} finally {try{clientSocket.close();}catch(IOException e) {/*close failed*/}}
