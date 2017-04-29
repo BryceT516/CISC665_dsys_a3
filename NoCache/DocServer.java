@@ -59,7 +59,7 @@ public class DocServer{
 				// filename, usage info, current cache IP, file info
 		//Prepare the cache information: cache 1 count, cache 2 size
 
-		//Start cache process(es)
+		//Start cache process(es) - Based on prior request data.
 
 		//Start listening for client requests
 		ThruChannel channel = new ThruChannel();
@@ -71,7 +71,7 @@ public class DocServer{
 				try {
 					Socket clientSocket = docServerSocket.accept();
 					DocServerConnection c = new DocServerConnection(clientSocket, channel);
-					//System.out.println("*");
+					
 				} catch(IOException e){}
 			}
 		} catch(IOException e) {System.out.println("Doc Server Listen: " + e.getMessage());}
@@ -156,7 +156,6 @@ class DocServerConnection extends Thread{
 		} catch (IOException e) {System.out.println("Doc Server Connection: " + e.getMessage());}
 	}
 	public void run(){
-		Boolean getMsgFlag = true;
 		String data = "";
 		Boolean conversing = true;
 		try {

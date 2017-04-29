@@ -4,10 +4,14 @@ import java.lang.*;
 import java.util.concurrent.*;
 import java.net.*;
 import java.util.Date;
+import java.util.Random;
+import java.util.Scanner;
+
 
 public class a3main {
 	
 	public static void main(String args[]) {
+		
 
 		//Start up a logging server thread to collect information from the 
 		// components of the experiment.
@@ -33,18 +37,60 @@ public class a3main {
 			docServer.inheritIO();
 			Process runDocServer = docServer.start();
 			
-			//System.out.println("Document Server Process Started...");
+			//Read in the test scenario file, each line is a new client, launch clients per line.
+			ClientInfoNode head = null;
+			ClientInfoNode currentPtr = null;
+			int clientCount = 0;
 
+			try {
+				String scenarioFile = "scenario1.txt";
+				File file = new File(scenarioFile);
+				Scanner scanner = new Scanner(file);
+				String clientInfoIn = "";
+				String[] clientInfoArray = new String[2];
+				try {
+					while(scanner.hasNextLine()){
+						clientInfoIn = scanner.nextLine();
+						//Parse the line for client info
+						clientInfoArray=clientInfoIn.split(","); //Filename and decision time
+						if (head == null){
+							currentPtr = new ClientInfoNode();
+							currentPtr.filenameWanted = clientInfoArray[0];
+							currentPtr.decisionWaitTime = clientInfoArray[1];
+							head = currentPtr;
+							clientCount++;
+						} else {
+							currentPtr.next = new ClientInfoNode();
+							currentPtr = currentPtr.next;
+							currentPtr.filenameWanted = clientInfoArray[0];
+							currentPtr.decisionWaitTime = clientInfoArray[1];
+							clientCount++;
+						}
+					}
+				} finally {
+					scanner.close();
+				}
+
+			} catch (IOException e){};
+
+			Process[] runClients = new Process[clientCount];
+			currentPtr = head;
+
+			for(int z = 0; z < runClients.length; z++){
+				ProcessBuilder client = new ProcessBuilder("java.exe", "Client", "Client " + z, logServerPort, currentPtr.filenameWanted, currentPtr.decisionWaitTime);
+				client.inheritIO();
+				runClients[z] = client.start();
+				currentPtr = currentPtr.next;
+				if (currentPtr == null){
+					break;
+				}
+			}		
 			
-			ProcessBuilder client1 = new ProcessBuilder("java.exe", "Client", "Client 1", logServerPort);
-			//ProcessBuilder client2 = new ProcessBuilder("java.exe", "Client", "Client 2", logServerPort);
-			client1.inheritIO();
-			//client2.inheritIO();
-			Process runClient1 = client1.start();
-			//Process runClient2 = client2.start();
-			
-			runClient1.waitFor();
-			//runClient2.waitFor();
+			//Wait for all clients to complete
+			for (int y = 0; y < runClients.length; y++){
+				runClients[y].waitFor();
+			}
+
 
 
 			//Testing is complete, shut down the document server
@@ -98,6 +144,10 @@ class StartServer extends Thread{
 	}
 
 	public void run(){
+		//Start the file connection
+		BlockingQueue<String> logFileOutput = new ArrayBlockingQueue<String>(256);
+		LogFileWriter logWriterThread = new LogFileWriter(logFileOutput);
+
 		try{
 			//int serverPort = 7896;
 			ServerSocket listenSocket = new ServerSocket(0);
@@ -107,7 +157,7 @@ class StartServer extends Thread{
 			while(this.runFlag) {				
 				try{
 					Socket clientSocket = listenSocket.accept();
-					Connection c = new Connection(clientSocket);
+					Connection c = new Connection(clientSocket, logFileOutput);
 					System.out.println(".");
 				} catch(IOException e) {}
 				
@@ -115,6 +165,8 @@ class StartServer extends Thread{
 			
 			
 		} catch(IOException e) {System.out.println("Listen : " + e.getMessage());} 
+
+		logWriterThread.terminateLogFileWriter();
 
 		//System.out.println("Logging server shutting down...");
 	}
@@ -136,8 +188,11 @@ class Connection extends Thread{
 	DataOutputStream out;
 	Socket clientSocket;
 	String portNumber = "";
+	BlockingQueue<String> logFileOutput= null;
 
-	public Connection (Socket aClientSocket){
+
+	public Connection (Socket aClientSocket, BlockingQueue<String> logFileOutputIn){
+		logFileOutput=logFileOutputIn;
 		try{
 			clientSocket = aClientSocket;
 			portNumber = Integer.toString(clientSocket.getLocalPort());
@@ -149,24 +204,75 @@ class Connection extends Thread{
 	}
 	public void run(){
 		Boolean getMsgFlag = true;
-		Date datetime = new Date();
 		try {	//An echo server
 			while(getMsgFlag){
 				String data = in.readUTF();
-				datetime = new Date();
+				
 				if(data == "exit"){
 					getMsgFlag=false;
 				} else {
-					System.out.println(datetime.toString() + ": " + data);
+					System.out.println(data);
+					try {
+						logFileOutput.put(data); //Add the text to the queue to be written to the log file.
+					} catch (InterruptedException e) {System.out.println("Adding log entry to queue fail: " + e);}
+					
 					out.writeUTF(data + ": " + portNumber);
 				}
 				
 			}
 			
-		} catch(EOFException e) {System.out.println("a-EOF: " + e.getMessage());
+		} catch(EOFException e) {/*System.out.println("a-EOF: " + e.getMessage());*/
 		} catch(IOException e) {System.out.println("a-IO-2: " + e.getMessage());
 		} finally {try{clientSocket.close();}catch(IOException e) {/*close failed*/}}
 	}
 }
 
+class LogFileWriter extends Thread{
+	BlockingQueue<String> logEntryQueue;
+	FileWriter outToLogFile = null;
+	Boolean writeToFileFlag = true;
 
+	public LogFileWriter (BlockingQueue<String> logEntryQueueIn){
+		this.logEntryQueue = logEntryQueueIn;
+		//Open the file for writing
+		try {
+			outToLogFile = new FileWriter("logFile.txt", true);
+		} catch (IOException e) {System.out.println("log file failed: " + e);}
+		this.start();	//launch the thread
+
+	}
+
+	public void run(){
+		String outputText = "";
+		try { //Writing to file
+			while(writeToFileFlag){
+				//Get data from the queue
+				try {
+					outputText = logEntryQueue.poll(100,TimeUnit.MILLISECONDS);
+				} catch (InterruptedException e) {System.out.println("Reading from logging queue fail: " + e);}
+				
+				//Append it to the file
+				if(outputText != null){
+					outToLogFile.write(outputText + "\n");
+				}
+			}
+			outToLogFile.close();
+		} catch(IOException e){System.out.println("File logger fail: " + e);}
+	}
+
+	public void terminateLogFileWriter(){
+		writeToFileFlag = false;
+	}
+}
+
+
+class ClientInfoNode{
+	public ClientInfoNode next = null;
+	public String filenameWanted = "";
+	public String decisionWaitTime = "";
+
+	public void ClientInfoNode(){
+
+	}
+
+}

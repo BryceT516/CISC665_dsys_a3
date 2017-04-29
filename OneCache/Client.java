@@ -2,7 +2,9 @@
 
 import java.net.*;
 import java.io.*;
-import java.util.Random;
+
+import java.util.Date;
+import java.text.*;
 
 public class Client{
 
@@ -17,7 +19,7 @@ public class Client{
 
 	public static void main (String args[]){
 		//arguments supply message and hostname of destination
-		Random rand = new Random();
+		
 		String clientName = args[0];
 
 		//Connect to the logging server
@@ -42,7 +44,7 @@ public class Client{
 		} catch (IOException e){System.out.println("C-IO: " + e.getMessage());}
 		
 		msgLogServer(clientName + " - going to sleep...");
-		int n = (rand.nextInt(100) + 1) * 100;
+		int n = Integer.parseInt(args[3]);
 		try {
 			Thread.sleep(n);
 		} catch (InterruptedException e){
@@ -57,22 +59,28 @@ public class Client{
 			msgLogServer(clientName + " - requesting a file.");
 			outToDocServer.writeUTF("filerequest");	//UTF is a string encoding.
 			data = inFromDocServer.readUTF();
+			msgLogServer(clientName + " - received: " + data); //Should be "filename"
+			outToDocServer.writeUTF(args[2]); //Send the filename
+			msgLogServer(clientName + " - sent filename: " + args[2]);
+			data = inFromDocServer.readUTF();
 			msgLogServer(clientName + " - received: " + data);
 			//Use received IP address and Port number to request the file.
 		} catch (IOException e){System.out.println("C-IO: " + e.getMessage());}
 
+		disconnectDocServer();
+
 		//Unpack the data.
 		String[] address = data.split(":");
 		int fileServerPort = Integer.parseInt(address[1]);
-		if(address[0] != "localhost"){
+		if(!address[0].equals("localhost")){
 			//TODO handle the case where the IP address is actually different.
 		}
 		
 		Socket fileServerSocket = null;
 		
 		try {
-			msgLogServer(clientName + " - connecting to the file server.");
-			//Connect to the given address
+			msgLogServer(clientName + " - connecting to the cache server." + address[0] + ":" + address[1]);
+			//Connect to the given address (this will serve the desired file)
 			fileServerSocket = new Socket(address[0], fileServerPort);
 			msgLogServer(clientName + " - connected.");
 			DataInputStream inFromFileServer = new DataInputStream(fileServerSocket.getInputStream());
@@ -82,17 +90,37 @@ public class Client{
 			msgLogServer(clientName + " - requesting a file.");
 			outToFileServer.writeUTF("filerequest");
 
-			//Receive response
+			//Receive response - file server asking for the filename.
 			String dataIn = inFromFileServer.readUTF();
 			msgLogServer(clientName + " - received response: " + dataIn);
+			outToFileServer.writeUTF(args[2]); // Send the filename.
+			msgLogServer(clientName + " - sent filename to file server: " + args[2]);
+			dataIn = inFromFileServer.readUTF(); //Read in the total size and number of chunks
+			msgLogServer(clientName + " - received file info: " + dataIn);
+			String[] fileInfo = new String[2];
+			int breakerChar = dataIn.indexOf(',');
+			fileInfo[0] = dataIn.substring(0, breakerChar); // The total file length
+			fileInfo[1] = dataIn.substring(breakerChar + 1); // The number of chunks to be sent
+			long fileLength = Long.parseLong(fileInfo[0]);
+			int chunkCount = Integer.parseInt(fileInfo[1]);
 
-		} catch (UnknownHostException e){System.out.println("C-Sock: " + e.getMessage());
-		} catch (IOException e){System.out.println("C-IO: " + e.getMessage());
+			//Prepare to receive the chunks
+			StringBuilder fileReceived = new StringBuilder((int)fileLength);
+			//Receive the chunks.
+			for (int v = 0; v < chunkCount; v++){
+				fileReceived.append(inFromFileServer.readUTF());
+			}
+			//Finalize the received text of the file.
+			String finalFileReceived = fileReceived.toString();
+			msgLogServer(clientName + " - received file.");
+
+		} catch (UnknownHostException e){System.out.println(clientName +"C-Sock: " + e.getMessage());
+		} catch (IOException e){System.out.println(clientName +"C-IO: " + e.getMessage());
 		} finally{
 			if(fileServerSocket!=null) try{fileServerSocket.close();} catch(IOException e){/*Close Failed*/}
 		}
 
-		disconnectDocServer();
+		
 		msgLogServer(clientName + " - is all done.");
 		disconnectLogServer();
 	}
@@ -149,15 +177,19 @@ public class Client{
 
 	public static void msgLogServer(String msgToSend){
 		String data;
-
+		SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss:S");
+		Date datetime = new Date();
 		try {
-			outToLogServer.writeUTF(msgToSend);	//UTF is a string encoding.
+			outToLogServer.writeUTF(ft.format(datetime) + ":" + msgToSend);	//UTF is a string encoding.
 		} catch (IOException e){System.out.println("C-IO: " + e.getMessage());}
-		
+
+	
 		try {
 			data = inFromLogServer.readUTF();
 			//System.out.println("Doc Server: Response Received: " + data);
 		} catch (IOException e){System.out.println("C-IO: " + e.getMessage());}
+
+
 	}
 
 }

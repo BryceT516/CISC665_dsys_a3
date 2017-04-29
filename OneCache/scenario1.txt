@@ -1,0 +1,10 @@
+file75k1.txt,2440
+file200k1.txt,1880
+file200k1.txt,4780
+file200k1.txt,2350
+file75k1.txt,4760
+file200k1.txt,1950
+file75k1.txt,470
+file500k1.txt,4610
+file350k1.txt,920
+file110k1.txt,3830
