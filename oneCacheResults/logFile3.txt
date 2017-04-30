@@ -1,0 +1,1950 @@
+Client 1-started-file350k4.txt-07:01:26:265
+Client 4-started-file75k1.txt-07:01:26:380
+Client 5-started-file500k4.txt-07:01:26:412
+Client 7-started-file75k5.txt-07:01:26:446
+Client 2-started-file200k1.txt-07:01:26:462
+Client 0-started-file130k3.txt-07:01:26:513
+Client 8-started-file350k4.txt-07:01:26:518
+Client 3-started-file500k2.txt-07:01:26:579
+Client 6-started-file1m5.txt-07:01:26:576
+Client 9-started-file350k3.txt-07:01:26:610
+Client 11-started-file1m4.txt-07:01:26:652
+Client 12-started-file500k1.txt-07:01:26:638
+Client 13-started-file130k1.txt-07:01:26:662
+Client 10-started-file1m3.txt-07:01:26:666
+Client 14-started-file130k1.txt-07:01:26:677
+Client 8-connecting to doc server-07:01:26:721
+Client 8-connected to doc server-07:01:26:722
+Client 8-requesting a file-07:01:26:722
+Client 8-received filename-07:01:26:722
+Client 8-sent filename-07:01:26:722
+Client 5-connecting to doc server-07:01:26:738
+Client 5-connected to doc server-07:01:26:739
+Client 5-requesting a file-07:01:26:739
+Client 5-received filename-07:01:26:739
+Client 5-sent filename-07:01:26:740
+Client 8-received cache address-07:01:26:917
+Client 8-connecting to cache server-localhost:56157-07:01:26:918
+Client 8-connected to cache server-07:01:26:919
+Client 8-requesting file from cache-07:01:26:921
+Client 8-received file info-350025,6-07:01:26:923
+Client 8-received file-07:01:26:945
+Client 8-is complete-07:01:26:946
+Client 5-received cache address-07:01:27:78
+Client 5-connecting to cache server-localhost:56162-07:01:27:78
+Client 5-connected to cache server-07:01:27:79
+Client 5-requesting file from cache-07:01:27:80
+Client 5-received file info-500019,9-07:01:27:81
+Client 5-received file-07:01:27:97
+Client 5-is complete-07:01:27:97
+Client 4-connecting to doc server-07:01:27:224
+Client 4-connected to doc server-07:01:27:227
+Client 4-requesting a file-07:01:27:228
+Client 4-received filename-07:01:27:229
+Client 4-sent filename-07:01:27:230
+Client 12-connecting to doc server-07:01:27:412
+Client 12-connected to doc server-07:01:27:413
+Client 12-requesting a file-07:01:27:413
+Client 12-received filename-07:01:27:413
+Client 12-sent filename-07:01:27:413
+Client 4-received cache address-07:01:27:427
+Client 4-connecting to cache server-localhost:56169-07:01:27:428
+Client 4-connected to cache server-07:01:27:429
+Client 4-requesting file from cache-07:01:27:429
+Client 4-received file info-75036,2-07:01:27:430
+Client 4-received file-07:01:27:440
+Client 4-is complete-07:01:27:440
+Client 12-received cache address-07:01:27:567
+Client 12-connecting to cache server-localhost:56174-07:01:27:568
+Client 12-connected to cache server-07:01:27:568
+Client 12-requesting file from cache-07:01:27:569
+Client 12-received file info-500019,9-07:01:27:570
+Client 0-connecting to doc server-07:01:27:579
+Client 0-connected to doc server-07:01:27:580
+Client 0-requesting a file-07:01:27:582
+Client 0-received filename-07:01:27:582
+Client 0-sent filename-07:01:27:583
+Client 12-received file-07:01:27:590
+Client 12-is complete-07:01:27:591
+Client 6-connecting to doc server-07:01:27:650
+Client 6-connected to doc server-07:01:27:651
+Client 6-requesting a file-07:01:27:651
+Client 6-received filename-07:01:27:651
+Client 6-sent filename-07:01:27:651
+Client 0-received cache address-07:01:27:713
+Client 0-connecting to cache server-localhost:56181-07:01:27:714
+Client 0-connected to cache server-07:01:27:715
+Client 0-requesting file from cache-07:01:27:715
+Client 0-received file info-130026,3-07:01:27:716
+Client 0-received file-07:01:27:727
+Client 0-is complete-07:01:27:728
+Client 6-received cache address-07:01:27:887
+Client 6-connecting to cache server-localhost:56186-07:01:27:888
+Client 6-connected to cache server-07:01:27:888
+Client 6-requesting file from cache-07:01:27:888
+Client 6-received file info-1000038,17-07:01:27:890
+Client 6-received file-07:01:27:913
+Client 6-is complete-07:01:27:913
+Client 14-connecting to doc server-07:01:28:379
+Client 14-connected to doc server-07:01:28:382
+Client 14-requesting a file-07:01:28:383
+Client 14-received filename-07:01:28:384
+Client 14-sent filename-07:01:28:384
+Client 9-connecting to doc server-07:01:28:495
+Client 9-connected to doc server-07:01:28:497
+Client 9-requesting a file-07:01:28:497
+Client 9-received filename-07:01:28:498
+Client 9-sent filename-07:01:28:498
+Client 7-connecting to doc server-07:01:28:831
+Client 7-connected to doc server-07:01:28:834
+Client 7-requesting a file-07:01:28:835
+Client 7-received filename-07:01:28:837
+Client 7-sent filename-07:01:28:838
+Client 14-received cache address-07:01:29:33
+Client 14-connecting to cache server-localhost:56195-07:01:29:34
+Client 14-connected to cache server-07:01:29:35
+Client 14-requesting file from cache-07:01:29:35
+Client 14-received file info-130026,3-07:01:29:36
+Client 14-received file-07:01:29:42
+Client 14-is complete-07:01:29:43
+Client 10-connecting to doc server-07:01:29:153
+Client 10-connected to doc server-07:01:29:156
+Client 10-requesting a file-07:01:29:157
+Client 10-received filename-07:01:29:158
+Client 10-sent filename-07:01:29:159
+Client 11-connecting to doc server-07:01:29:308
+Client 11-connected to doc server-07:01:29:311
+Client 11-requesting a file-07:01:29:312
+Client 11-received filename-07:01:29:313
+Client 11-sent filename-07:01:29:314
+Client 3-connecting to doc server-07:01:29:473
+Client 3-connected to doc server-07:01:29:474
+Client 3-requesting a file-07:01:29:474
+Client 3-received filename-07:01:29:474
+Client 3-sent filename-07:01:29:474
+Client 9-received cache address-07:01:29:718
+Client 9-connecting to cache server-localhost:56204-07:01:29:719
+Client 9-connected to cache server-07:01:29:720
+Client 9-requesting file from cache-07:01:29:720
+Client 9-received file info-350025,6-07:01:29:721
+Client 13-connecting to doc server-07:01:29:733
+Client 13-connected to doc server-07:01:29:734
+Client 13-requesting a file-07:01:29:734
+Client 9-received file-07:01:29:736
+Client 9-is complete-07:01:29:737
+Client 13-received filename-07:01:29:738
+Client 13-sent filename-07:01:29:738
+Client 1-connecting to doc server-07:01:30:361
+Client 1-connected to doc server-07:01:30:362
+Client 1-requesting a file-07:01:30:362
+Client 1-received filename-07:01:30:362
+Client 1-sent filename-07:01:30:362
+Client 7-received cache address-07:01:30:370
+Client 7-connecting to cache server-localhost:56212-07:01:30:371
+Client 7-connected to cache server-07:01:30:372
+Client 7-requesting file from cache-07:01:30:372
+Client 7-received file info-75036,2-07:01:30:372
+Client 7-received file-07:01:30:378
+Client 7-is complete-07:01:30:378
+Client 10-received cache address-07:01:31:50
+Client 10-connecting to cache server-localhost:56218-07:01:31:51
+Client 10-connected to cache server-07:01:31:52
+Client 10-requesting file from cache-07:01:31:52
+Client 10-received file info-1000038,17-07:01:31:52
+Client 10-received file-07:01:31:75
+Client 10-is complete-07:01:31:75
+Client 2-connecting to doc server-07:01:31:342
+Client 2-connected to doc server-07:01:31:345
+Client 2-requesting a file-07:01:31:346
+Client 2-received filename-07:01:31:347
+Client 2-sent filename-07:01:31:348
+Client 11-received cache address-07:01:31:760
+Client 11-connecting to cache server-localhost:56225-07:01:31:761
+Client 11-connected to cache server-07:01:31:762
+Client 11-requesting file from cache-07:01:31:762
+Client 11-received file info-1000038,17-07:01:31:762
+Client 11-received file-07:01:31:785
+Client 11-is complete-07:01:31:786
+Client 15-started-file130k2.txt-07:01:32:313
+Client 3-received cache address-07:01:32:406
+Client 13-received cache address-07:01:32:407
+Client 3-connecting to cache server-localhost:56233-07:01:32:407
+Client 13-connecting to cache server-localhost:56195-07:01:32:408
+Client 3-connected to cache server-07:01:32:408
+Client 13-connected to cache server-07:01:32:409
+Client 3-requesting file from cache-07:01:32:410
+Client 13-requesting file from cache-07:01:32:410
+Client 13-received file info-130026,3-07:01:32:411
+Client 13-received file-07:01:32:419
+Client 13-is complete-07:01:32:419
+Client 3-received file info-500019,9-07:01:32:421
+Client 3-received file-07:01:32:438
+Client 3-is complete-07:01:32:439
+Client 1-received cache address-07:01:33:87
+Client 1-connecting to cache server-localhost:56240-07:01:33:88
+Client 1-connected to cache server-07:01:33:89
+Client 1-requesting file from cache-07:01:33:89
+Client 1-received file info-350025,6-07:01:33:91
+Client 1-received file-07:01:33:105
+Client 1-is complete-07:01:33:106
+Client 2-received cache address-07:01:33:761
+Client 2-connecting to cache server-localhost:56246-07:01:33:762
+Client 2-connected to cache server-07:01:33:763
+Client 2-requesting file from cache-07:01:33:763
+Client 2-received file info-200031,4-07:01:33:764
+Client 2-received file-07:01:33:773
+Client 2-is complete-07:01:33:774
+Client 15-connecting to doc server-07:01:36:104
+Client 15-connected to doc server-07:01:36:107
+Client 15-requesting a file-07:01:36:108
+Client 15-received filename-07:01:36:109
+Client 15-sent filename-07:01:36:109
+Client 15-received cache address-07:01:36:798
+Client 15-connecting to cache server-localhost:56253-07:01:36:799
+Client 15-connected to cache server-07:01:36:799
+Client 15-requesting file from cache-07:01:36:799
+Client 15-received file info-130026,3-07:01:36:800
+Client 15-received file-07:01:36:807
+Client 15-is complete-07:01:36:808
+Client 16-started-file1m4.txt-07:01:42:373
+Client 20-started-file350k4.txt-07:01:42:376
+Client 21-started-file350k4.txt-07:01:42:383
+Client 17-started-file75k2.txt-07:01:42:400
+Client 19-started-file75k4.txt-07:01:42:408
+Client 18-started-file130k5.txt-07:01:42:410
+Client 20-connecting to doc server-07:01:44:151
+Client 20-connected to doc server-07:01:44:153
+Client 20-requesting a file-07:01:44:153
+Client 20-received filename-07:01:44:154
+Client 20-sent filename-07:01:44:154
+Client 20-received cache address-07:01:44:154
+Client 20-connecting to cache server-localhost:56240-07:01:44:156
+Client 20-connected to cache server-07:01:44:157
+Client 20-requesting file from cache-07:01:44:157
+Client 20-received file info-350025,6-07:01:44:158
+Client 20-received file-07:01:44:165
+Client 20-is complete-07:01:44:165
+Client 19-connecting to doc server-07:01:44:190
+Client 19-connected to doc server-07:01:44:191
+Client 19-requesting a file-07:01:44:191
+Client 19-received filename-07:01:44:191
+Client 19-sent filename-07:01:44:192
+Client 16-connecting to doc server-07:01:44:391
+Client 16-connected to doc server-07:01:44:392
+Client 16-requesting a file-07:01:44:392
+Client 16-received filename-07:01:44:392
+Client 16-sent filename-07:01:44:393
+Client 17-connecting to doc server-07:01:44:552
+Client 17-connected to doc server-07:01:44:555
+Client 17-requesting a file-07:01:44:556
+Client 17-received filename-07:01:44:557
+Client 17-sent filename-07:01:44:557
+Client 21-connecting to doc server-07:01:44:582
+Client 21-connected to doc server-07:01:44:585
+Client 21-requesting a file-07:01:44:585
+Client 21-received filename-07:01:44:586
+Client 21-sent filename-07:01:44:587
+Client 19-received cache address-07:01:44:871
+Client 19-connecting to cache server-localhost:56281-07:01:44:872
+Client 19-connected to cache server-07:01:44:873
+Client 19-requesting file from cache-07:01:44:873
+Client 19-received file info-75036,2-07:01:44:873
+Client 19-received file-07:01:44:879
+Client 19-is complete-07:01:44:879
+Client 16-received cache address-07:01:45:595
+Client 16-connecting to cache server-localhost:56287-07:01:45:596
+Client 16-connected to cache server-07:01:45:597
+Client 16-requesting file from cache-07:01:45:598
+Client 16-received file info-1000038,17-07:01:45:598
+Client 16-received file-07:01:45:621
+Client 16-is complete-07:01:45:621
+Client 17-received cache address-07:01:46:265
+Client 21-received cache address-07:01:46:265
+Client 21-connecting to cache server-localhost:56240-07:01:46:265
+Client 17-connecting to cache server-localhost:56293-07:01:46:265
+Client 21-connected to cache server-07:01:46:266
+Client 17-connected to cache server-07:01:46:266
+Client 21-requesting file from cache-07:01:46:266
+Client 17-requesting file from cache-07:01:46:266
+Client 21-received file info-350025,6-07:01:46:267
+Client 17-received file info-75036,2-07:01:46:267
+Client 21-received file-07:01:46:270
+Client 21-is complete-07:01:46:270
+Client 17-received file-07:01:46:274
+Client 17-is complete-07:01:46:274
+Client 18-connecting to doc server-07:01:46:891
+Client 18-connected to doc server-07:01:46:892
+Client 18-requesting a file-07:01:46:892
+Client 18-received filename-07:01:46:893
+Client 18-sent filename-07:01:46:893
+Client 18-received cache address-07:01:47:588
+Client 18-connecting to cache server-localhost:56301-07:01:47:589
+Client 18-connected to cache server-07:01:47:589
+Client 18-requesting file from cache-07:01:47:589
+Client 18-received file info-130026,3-07:01:47:591
+Client 18-received file-07:01:47:598
+Client 18-is complete-07:01:47:598
+Client 22-started-file200k1.txt-07:02:09:325
+Client 24-started-file75k5.txt-07:02:09:325
+Client 23-started-file75k2.txt-07:02:09:334
+Client 22-connecting to doc server-07:02:11:67
+Client 22-connected to doc server-07:02:11:70
+Client 22-requesting a file-07:02:11:71
+Client 22-received filename-07:02:11:72
+Client 22-sent filename-07:02:11:72
+Client 22-received cache address-07:02:11:73
+Client 22-connecting to cache server-localhost:56246-07:02:11:75
+Client 22-connected to cache server-07:02:11:77
+Client 22-requesting file from cache-07:02:11:78
+Client 22-received file info-200031,4-07:02:11:79
+Client 22-received file-07:02:11:95
+Client 22-is complete-07:02:11:97
+Client 24-connecting to doc server-07:02:13:228
+Client 24-connected to doc server-07:02:13:229
+Client 24-requesting a file-07:02:13:230
+Client 24-received filename-07:02:13:233
+Client 24-sent filename-07:02:13:233
+Client 24-received cache address-07:02:13:926
+Client 24-connecting to cache server-localhost:56317-07:02:13:927
+Client 24-connected to cache server-07:02:13:927
+Client 24-requesting file from cache-07:02:13:927
+Client 24-received file info-75036,2-07:02:13:929
+Client 24-received file-07:02:13:934
+Client 24-is complete-07:02:13:934
+Client 23-connecting to doc server-07:02:14:325
+Client 23-connected to doc server-07:02:14:328
+Client 23-requesting a file-07:02:14:329
+Client 23-received filename-07:02:14:329
+Client 23-sent filename-07:02:14:330
+Client 23-received cache address-07:02:14:989
+Client 23-connecting to cache server-localhost:56324-07:02:14:990
+Client 23-connected to cache server-07:02:14:990
+Client 23-requesting file from cache-07:02:14:990
+Client 23-received file info-75036,2-07:02:14:992
+Client 23-received file-07:02:14:997
+Client 23-is complete-07:02:14:997
+Client 25-started-file1m3.txt-07:02:15:347
+Client 27-started-file110k1.txt-07:02:15:354
+Client 26-started-file130k4.txt-07:02:15:357
+Client 25-connecting to doc server-07:02:16:579
+Client 25-connected to doc server-07:02:16:582
+Client 25-requesting a file-07:02:16:583
+Client 25-received filename-07:02:16:584
+Client 25-sent filename-07:02:16:584
+Client 25-received cache address-07:02:17:299
+Client 25-connecting to cache server-localhost:56337-07:02:17:299
+Client 25-connected to cache server-07:02:17:300
+Client 25-requesting file from cache-07:02:17:300
+Client 25-received file info-1000038,17-07:02:17:301
+Client 25-received file-07:02:17:325
+Client 25-is complete-07:02:17:326
+Client 27-connecting to doc server-07:02:18:466
+Client 27-connected to doc server-07:02:18:469
+Client 27-requesting a file-07:02:18:470
+Client 27-received filename-07:02:18:471
+Client 27-sent filename-07:02:18:472
+Client 27-received cache address-07:02:19:138
+Client 27-connecting to cache server-localhost:56344-07:02:19:138
+Client 27-connected to cache server-07:02:19:139
+Client 27-requesting file from cache-07:02:19:139
+Client 27-received file info-110019,2-07:02:19:140
+Client 27-received file-07:02:19:147
+Client 27-is complete-07:02:19:147
+Client 26-connecting to doc server-07:02:20:240
+Client 26-connected to doc server-07:02:20:243
+Client 26-requesting a file-07:02:20:244
+Client 26-received filename-07:02:20:245
+Client 26-sent filename-07:02:20:246
+Client 26-received cache address-07:02:20:917
+Client 26-connecting to cache server-localhost:56351-07:02:20:917
+Client 26-connected to cache server-07:02:20:918
+Client 26-requesting file from cache-07:02:20:918
+Client 26-received file info-130026,3-07:02:20:919
+Client 26-received file-07:02:20:926
+Client 26-is complete-07:02:20:926
+Client 28-started-file350k1.txt-07:02:21:428
+Client 29-started-file350k4.txt-07:02:21:430
+Client 31-started-file75k2.txt-07:02:21:430
+Client 30-started-file75k4.txt-07:02:21:440
+Client 32-started-file1m2.txt-07:02:21:473
+Client 33-started-file130k3.txt-07:02:21:476
+Client 31-connecting to doc server-07:02:21:966
+Client 31-connected to doc server-07:02:21:969
+Client 31-requesting a file-07:02:21:970
+Client 31-received filename-07:02:21:971
+Client 31-sent filename-07:02:21:971
+Client 31-received cache address-07:02:21:972
+Client 31-connecting to cache server-localhost:56324-07:02:21:974
+Client 31-connected to cache server-07:02:21:976
+Client 31-requesting file from cache-07:02:21:977
+Client 31-received file info-75036,2-07:02:21:978
+Client 31-received file-07:02:21:986
+Client 31-is complete-07:02:21:987
+Client 29-connecting to doc server-07:02:22:155
+Client 29-connected to doc server-07:02:22:158
+Client 29-requesting a file-07:02:22:159
+Client 29-received filename-07:02:22:161
+Client 29-sent filename-07:02:22:161
+Client 29-received cache address-07:02:22:162
+Client 29-connecting to cache server-localhost:56240-07:02:22:165
+Client 29-connected to cache server-07:02:22:167
+Client 29-requesting file from cache-07:02:22:168
+Client 29-received file info-350025,6-07:02:22:169
+Client 29-received file-07:02:22:181
+Client 29-is complete-07:02:22:186
+Client 28-connecting to doc server-07:02:22:366
+Client 28-connected to doc server-07:02:22:369
+Client 28-requesting a file-07:02:22:370
+Client 28-received filename-07:02:22:370
+Client 28-sent filename-07:02:22:371
+Client 28-received cache address-07:02:23:59
+Client 28-connecting to cache server-localhost:56375-07:02:23:60
+Client 28-connected to cache server-07:02:23:60
+Client 28-requesting file from cache-07:02:23:61
+Client 28-received file info-350025,6-07:02:23:62
+Client 28-received file-07:02:23:75
+Client 28-is complete-07:02:23:75
+Client 30-connecting to doc server-07:02:23:113
+Client 30-connected to doc server-07:02:23:114
+Client 30-requesting a file-07:02:23:114
+Client 30-received filename-07:02:23:114
+Client 30-sent filename-07:02:23:114
+Client 30-received cache address-07:02:23:790
+Client 30-connecting to cache server-localhost:56382-07:02:23:790
+Client 30-connected to cache server-07:02:23:791
+Client 30-requesting file from cache-07:02:23:791
+Client 30-received file info-75036,2-07:02:23:792
+Client 30-received file-07:02:23:798
+Client 30-is complete-07:02:23:798
+Client 32-connecting to doc server-07:02:24:755
+Client 32-connected to doc server-07:02:24:758
+Client 32-requesting a file-07:02:24:759
+Client 32-received filename-07:02:24:759
+Client 32-sent filename-07:02:24:760
+Client 32-received cache address-07:02:25:463
+Client 32-connecting to cache server-localhost:56389-07:02:25:464
+Client 32-connected to cache server-07:02:25:465
+Client 32-requesting file from cache-07:02:25:465
+Client 32-received file info-1000038,17-07:02:25:466
+Client 32-received file-07:02:25:488
+Client 32-is complete-07:02:25:489
+Client 33-connecting to doc server-07:02:25:688
+Client 33-connected to doc server-07:02:25:691
+Client 33-requesting a file-07:02:25:691
+Client 33-received filename-07:02:25:692
+Client 33-sent filename-07:02:25:693
+Client 33-received cache address-07:02:26:377
+Client 33-connecting to cache server-localhost:56396-07:02:26:378
+Client 33-connected to cache server-07:02:26:379
+Client 33-requesting file from cache-07:02:26:379
+Client 33-received file info-130026,3-07:02:26:380
+Client 33-received file-07:02:26:387
+Client 33-is complete-07:02:26:387
+Client 36-started-file350k4.txt-07:02:40:403
+Client 35-started-file130k2.txt-07:02:40:405
+Client 37-started-file130k2.txt-07:02:40:412
+Client 34-started-file500k2.txt-07:02:40:416
+Client 34-connecting to doc server-07:02:43:497
+Client 34-connected to doc server-07:02:43:500
+Client 34-requesting a file-07:02:43:501
+Client 34-received filename-07:02:43:502
+Client 34-sent filename-07:02:43:502
+Client 37-connecting to doc server-07:02:43:624
+Client 37-connected to doc server-07:02:43:626
+Client 37-requesting a file-07:02:43:626
+Client 37-received filename-07:02:43:627
+Client 37-sent filename-07:02:43:627
+Client 36-connecting to doc server-07:02:43:647
+Client 36-connected to doc server-07:02:43:650
+Client 36-requesting a file-07:02:43:650
+Client 36-received filename-07:02:43:651
+Client 36-sent filename-07:02:43:652
+Client 34-received cache address-07:02:44:183
+Client 34-connecting to cache server-localhost:56415-07:02:44:184
+Client 34-connected to cache server-07:02:44:184
+Client 34-requesting file from cache-07:02:44:185
+Client 34-received file info-500019,9-07:02:44:186
+Client 34-received file-07:02:44:202
+Client 34-is complete-07:02:44:202
+Client 37-received cache address-07:02:44:860
+Client 36-received cache address-07:02:44:860
+Client 36-connecting to cache server-localhost:56240-07:02:44:861
+Client 37-connecting to cache server-localhost:56421-07:02:44:861
+Client 36-connected to cache server-07:02:44:862
+Client 37-connected to cache server-07:02:44:862
+Client 36-requesting file from cache-07:02:44:862
+Client 37-requesting file from cache-07:02:44:862
+Client 36-received file info-350025,6-07:02:44:862
+Client 37-received file info-130026,3-07:02:44:863
+Client 36-received file-07:02:44:866
+Client 36-is complete-07:02:44:867
+Client 37-received file-07:02:44:872
+Client 37-is complete-07:02:44:872
+Client 35-connecting to doc server-07:02:45:47
+Client 35-connected to doc server-07:02:45:50
+Client 35-requesting a file-07:02:45:51
+Client 35-received filename-07:02:45:52
+Client 35-sent filename-07:02:45:52
+Client 35-received cache address-07:02:45:53
+Client 35-connecting to cache server-localhost:56421-07:02:45:55
+Client 35-connected to cache server-07:02:45:57
+Client 35-requesting file from cache-07:02:45:57
+Client 35-received file info-130026,3-07:02:45:58
+Client 35-received file-07:02:45:71
+Client 35-is complete-07:02:45:72
+Client 44-started-file200k1.txt-07:02:46:545
+Client 41-started-file130k1.txt-07:02:46:555
+Client 45-started-file130k4.txt-07:02:46:584
+Client 38-started-file350k5.txt-07:02:46:596
+Client 39-started-file500k1.txt-07:02:46:597
+Client 47-started-file200k3.txt-07:02:46:626
+Client 40-started-file130k5.txt-07:02:46:633
+Client 46-started-file350k5.txt-07:02:46:640
+Client 43-started-file350k2.txt-07:02:46:664
+Client 42-started-file200k4.txt-07:02:46:676
+Client 40-connecting to doc server-07:02:46:953
+Client 40-connected to doc server-07:02:46:956
+Client 40-requesting a file-07:02:46:957
+Client 40-received filename-07:02:46:958
+Client 40-sent filename-07:02:46:958
+Client 45-connecting to doc server-07:02:47:506
+Client 45-connected to doc server-07:02:47:509
+Client 45-requesting a file-07:02:47:510
+Client 45-received filename-07:02:47:511
+Client 45-sent filename-07:02:47:512
+Client 40-received cache address-07:02:47:671
+Client 40-connecting to cache server-localhost:56454-07:02:47:671
+Client 40-connected to cache server-07:02:47:672
+Client 40-requesting file from cache-07:02:47:672
+Client 40-received file info-130026,3-07:02:47:673
+Client 40-received file-07:02:47:680
+Client 40-is complete-07:02:47:680
+Client 46-connecting to doc server-07:02:47:803
+Client 46-connected to doc server-07:02:47:806
+Client 46-requesting a file-07:02:47:807
+Client 46-received filename-07:02:47:808
+Client 46-sent filename-07:02:47:808
+Client 44-connecting to doc server-07:02:47:930
+Client 44-connected to doc server-07:02:47:933
+Client 44-requesting a file-07:02:47:933
+Client 44-received filename-07:02:47:934
+Client 44-sent filename-07:02:47:935
+Client 41-connecting to doc server-07:02:47:998
+Client 41-connected to doc server-07:02:48:1
+Client 41-requesting a file-07:02:48:2
+Client 41-received filename-07:02:48:2
+Client 41-sent filename-07:02:48:3
+Client 45-received cache address-07:02:48:327
+Client 45-connecting to cache server-localhost:56463-07:02:48:327
+Client 45-connected to cache server-07:02:48:328
+Client 45-requesting file from cache-07:02:48:328
+Client 45-received file info-130026,3-07:02:48:329
+Client 45-received file-07:02:48:335
+Client 45-is complete-07:02:48:336
+Client 39-connecting to doc server-07:02:48:577
+Client 39-connected to doc server-07:02:48:580
+Client 39-requesting a file-07:02:48:581
+Client 39-received filename-07:02:48:582
+Client 39-sent filename-07:02:48:582
+Client 46-received cache address-07:02:49:8
+Client 44-received cache address-07:02:49:8
+Client 41-received cache address-07:02:49:9
+Client 44-connecting to cache server-localhost:56246-07:02:49:9
+Client 46-connecting to cache server-localhost:56470-07:02:49:9
+Client 41-connecting to cache server-localhost:56195-07:02:49:10
+Client 46-connected to cache server-07:02:49:10
+Client 44-connected to cache server-07:02:49:10
+Client 41-connected to cache server-07:02:49:10
+Client 46-requesting file from cache-07:02:49:11
+Client 44-requesting file from cache-07:02:49:11
+Client 41-requesting file from cache-07:02:49:11
+Client 46-received file info-350025,6-07:02:49:12
+Client 44-received file info-200031,4-07:02:49:12
+Client 44-received file-07:02:49:15
+Client 44-is complete-07:02:49:15
+Client 41-received file info-130026,3-07:02:49:17
+Client 41-received file-07:02:49:20
+Client 41-is complete-07:02:49:20
+Client 46-received file-07:02:49:36
+Client 46-is complete-07:02:49:36
+Client 38-connecting to doc server-07:02:49:577
+Client 38-connected to doc server-07:02:49:579
+Client 38-requesting a file-07:02:49:580
+Client 38-received filename-07:02:49:580
+Client 38-sent filename-07:02:49:581
+Client 39-received cache address-07:02:49:733
+Client 39-connecting to cache server-localhost:56479-07:02:49:734
+Client 39-connected to cache server-07:02:49:734
+Client 39-requesting file from cache-07:02:49:735
+Client 39-received file info-500019,9-07:02:49:735
+Client 39-received file-07:02:49:750
+Client 39-is complete-07:02:49:750
+Client 42-connecting to doc server-07:02:49:927
+Client 42-connected to doc server-07:02:49:929
+Client 42-requesting a file-07:02:49:929
+Client 42-received filename-07:02:49:930
+Client 42-sent filename-07:02:49:930
+Client 38-received cache address-07:02:50:445
+Client 38-connecting to cache server-localhost:56486-07:02:50:445
+Client 38-connected to cache server-07:02:50:446
+Client 38-requesting file from cache-07:02:50:446
+Client 38-received file info-350025,6-07:02:50:447
+Client 38-received file-07:02:50:460
+Client 38-is complete-07:02:50:460
+Client 47-connecting to doc server-07:02:50:758
+Client 47-connected to doc server-07:02:50:761
+Client 47-requesting a file-07:02:50:761
+Client 47-received filename-07:02:50:762
+Client 47-sent filename-07:02:50:763
+Client 43-connecting to doc server-07:02:50:886
+Client 43-connected to doc server-07:02:50:889
+Client 43-requesting a file-07:02:50:890
+Client 43-received filename-07:02:50:891
+Client 43-sent filename-07:02:50:892
+Client 42-received cache address-07:02:51:134
+Client 42-connecting to cache server-localhost:56494-07:02:51:134
+Client 42-connected to cache server-07:02:51:135
+Client 42-requesting file from cache-07:02:51:135
+Client 42-received file info-200031,4-07:02:51:136
+Client 42-received file-07:02:51:145
+Client 42-is complete-07:02:51:145
+Client 47-received cache address-07:02:51:808
+Client 47-connecting to cache server-localhost:56500-07:02:51:809
+Client 47-connected to cache server-07:02:51:809
+Client 47-requesting file from cache-07:02:51:809
+Client 47-received file info-200031,4-07:02:51:810
+Client 47-received file-07:02:51:819
+Client 47-is complete-07:02:51:819
+Client 43-received cache address-07:02:52:456
+Client 43-connecting to cache server-localhost:56507-07:02:52:457
+Client 43-connected to cache server-07:02:52:457
+Client 43-requesting file from cache-07:02:52:458
+Client 43-received file info-350025,6-07:02:52:459
+Client 43-received file-07:02:52:472
+Client 43-is complete-07:02:52:472
+Client 48-started-file130k3.txt-07:03:13:708
+Client 50-started-file350k4.txt-07:03:13:762
+Client 51-started-file75k4.txt-07:03:13:785
+Client 53-started-file350k1.txt-07:03:13:792
+Client 48-connecting to doc server-07:03:13:798
+Client 48-connected to doc server-07:03:13:799
+Client 48-requesting a file-07:03:13:799
+Client 55-started-file350k3.txt-07:03:13:744
+Client 54-started-file350k3.txt-07:03:13:756
+Client 52-started-file130k4.txt-07:03:13:756
+Client 57-started-file350k2.txt-07:03:13:771
+Client 49-started-file110k3.txt-07:03:13:819
+Client 58-started-file350k2.txt-07:03:13:819
+Client 48-received filename-07:03:13:853
+Client 48-sent filename-07:03:13:853
+Client 60-started-file130k1.txt-07:03:13:853
+Client 56-started-file500k5.txt-07:03:13:854
+Client 59-started-file1m5.txt-07:03:13:865
+Client 61-started-file110k5.txt-07:03:13:866
+Client 53-connecting to doc server-07:03:14:54
+Client 53-connected to doc server-07:03:14:57
+Client 53-requesting a file-07:03:14:57
+Client 53-received filename-07:03:14:58
+Client 53-sent filename-07:03:14:59
+Client 52-connecting to doc server-07:03:14:97
+Client 52-connected to doc server-07:03:14:100
+Client 52-requesting a file-07:03:14:100
+Client 52-received filename-07:03:14:101
+Client 52-sent filename-07:03:14:102
+Client 58-connecting to doc server-07:03:14:227
+Client 58-connected to doc server-07:03:14:228
+Client 58-requesting a file-07:03:14:228
+Client 58-received filename-07:03:14:229
+Client 58-sent filename-07:03:14:229
+Client 48-received cache address-07:03:14:524
+Client 48-connecting to cache server-localhost:56547-07:03:14:525
+Client 48-connected to cache server-07:03:14:525
+Client 48-requesting file from cache-07:03:14:525
+Client 48-received file info-130026,3-07:03:14:526
+Client 48-received file-07:03:14:534
+Client 48-is complete-07:03:14:534
+Client 57-connecting to doc server-07:03:14:657
+Client 57-connected to doc server-07:03:14:658
+Client 57-requesting a file-07:03:14:659
+Client 57-received filename-07:03:14:659
+Client 57-sent filename-07:03:14:660
+Client 50-connecting to doc server-07:03:15:168
+Client 50-connected to doc server-07:03:15:169
+Client 50-requesting a file-07:03:15:169
+Client 50-received filename-07:03:15:169
+Client 50-sent filename-07:03:15:169
+Client 53-received cache address-07:03:15:199
+Client 53-connecting to cache server-localhost:56555-07:03:15:200
+Client 53-connected to cache server-07:03:15:201
+Client 53-requesting file from cache-07:03:15:201
+Client 53-received file info-350025,6-07:03:15:201
+Client 53-received file-07:03:15:215
+Client 53-is complete-07:03:15:215
+Client 52-received cache address-07:03:15:882
+Client 52-connecting to cache server-localhost:56561-07:03:15:883
+Client 52-connected to cache server-07:03:15:883
+Client 52-requesting file from cache-07:03:15:884
+Client 52-received file info-130026,3-07:03:15:884
+Client 52-received file-07:03:15:891
+Client 52-is complete-07:03:15:892
+Client 60-connecting to doc server-07:03:15:917
+Client 60-connected to doc server-07:03:15:918
+Client 60-requesting a file-07:03:15:918
+Client 60-received filename-07:03:15:919
+Client 60-sent filename-07:03:15:919
+Client 54-connecting to doc server-07:03:16:156
+Client 54-connected to doc server-07:03:16:159
+Client 54-requesting a file-07:03:16:159
+Client 54-received filename-07:03:16:160
+Client 54-sent filename-07:03:16:161
+Client 51-connecting to doc server-07:03:16:214
+Client 51-connected to doc server-07:03:16:217
+Client 51-requesting a file-07:03:16:218
+Client 51-received filename-07:03:16:219
+Client 51-sent filename-07:03:16:219
+Client 58-received cache address-07:03:16:591
+Client 50-received cache address-07:03:16:591
+Client 57-received cache address-07:03:16:591
+Client 58-connecting to cache server-localhost:56570-07:03:16:592
+Client 50-connecting to cache server-localhost:56240-07:03:16:592
+Client 57-connecting to cache server-localhost:56570-07:03:16:592
+Client 58-connected to cache server-07:03:16:592
+Client 50-connected to cache server-07:03:16:592
+Client 57-connected to cache server-07:03:16:593
+Client 58-requesting file from cache-07:03:16:593
+Client 50-requesting file from cache-07:03:16:593
+Client 57-requesting file from cache-07:03:16:593
+Client 60-received cache address-07:03:16:594
+Client 60-connecting to cache server-localhost:56195-07:03:16:594
+Client 50-received file info-350025,6-07:03:16:595
+Client 60-connected to cache server-07:03:16:595
+Client 60-requesting file from cache-07:03:16:595
+Client 50-received file-07:03:16:598
+Client 50-is complete-07:03:16:599
+Client 58-received file info-350025,6-07:03:16:599
+Client 57-received file info-350025,6-07:03:16:600
+Client 60-received file info-130026,3-07:03:16:605
+Client 60-received file-07:03:16:613
+Client 60-is complete-07:03:16:613
+Client 57-received file-07:03:16:616
+Client 57-is complete-07:03:16:617
+Client 58-received file-07:03:16:620
+Client 58-is complete-07:03:16:621
+Client 59-connecting to doc server-07:03:16:787
+Client 59-connected to doc server-07:03:16:790
+Client 59-requesting a file-07:03:16:791
+Client 59-received filename-07:03:16:791
+Client 59-sent filename-07:03:16:792
+Client 56-connecting to doc server-07:03:16:948
+Client 56-connected to doc server-07:03:16:950
+Client 56-requesting a file-07:03:16:950
+Client 56-received filename-07:03:16:951
+Client 56-sent filename-07:03:16:951
+Client 54-received cache address-07:03:17:282
+Client 54-connecting to cache server-localhost:56581-07:03:17:283
+Client 54-connected to cache server-07:03:17:284
+Client 54-requesting file from cache-07:03:17:284
+Client 54-received file info-350025,6-07:03:17:284
+Client 54-received file-07:03:17:297
+Client 54-is complete-07:03:17:297
+Client 61-connecting to doc server-07:03:17:398
+Client 61-connected to doc server-07:03:17:401
+Client 61-requesting a file-07:03:17:402
+Client 61-received filename-07:03:17:402
+Client 61-sent filename-07:03:17:403
+Client 51-received cache address-07:03:17:947
+Client 51-connecting to cache server-localhost:56588-07:03:17:948
+Client 51-connected to cache server-07:03:17:948
+Client 51-requesting file from cache-07:03:17:948
+Client 51-received file info-75036,2-07:03:17:949
+Client 51-received file-07:03:17:955
+Client 51-is complete-07:03:17:955
+Client 49-connecting to doc server-07:03:18:607
+Client 49-connected to doc server-07:03:18:608
+Client 49-requesting a file-07:03:18:610
+Client 49-received filename-07:03:18:610
+Client 49-sent filename-07:03:18:611
+Client 59-received cache address-07:03:18:744
+Client 59-connecting to cache server-localhost:56595-07:03:18:745
+Client 59-connected to cache server-07:03:18:745
+Client 59-requesting file from cache-07:03:18:746
+Client 55-connecting to doc server-07:03:18:746
+Client 59-received file info-1000038,17-07:03:18:746
+Client 55-connected to doc server-07:03:18:747
+Client 55-requesting a file-07:03:18:747
+Client 55-received filename-07:03:18:748
+Client 55-sent filename-07:03:18:748
+Client 59-received file-07:03:18:769
+Client 59-is complete-07:03:18:770
+Client 56-received cache address-07:03:19:431
+Client 56-connecting to cache server-localhost:56602-07:03:19:432
+Client 56-connected to cache server-07:03:19:432
+Client 56-requesting file from cache-07:03:19:432
+Client 56-received file info-500019,9-07:03:19:433
+Client 56-received file-07:03:19:450
+Client 56-is complete-07:03:19:450
+Client 61-received cache address-07:03:20:74
+Client 61-connecting to cache server-localhost:56608-07:03:20:75
+Client 61-connected to cache server-07:03:20:75
+Client 61-requesting file from cache-07:03:20:75
+Client 61-received file info-110019,2-07:03:20:76
+Client 61-received file-07:03:20:83
+Client 61-is complete-07:03:20:83
+Client 49-received cache address-07:03:20:733
+Client 49-connecting to cache server-localhost:56614-07:03:20:733
+Client 49-connected to cache server-07:03:20:734
+Client 49-requesting file from cache-07:03:20:734
+Client 49-received file info-110019,2-07:03:20:734
+Client 49-received file-07:03:20:741
+Client 49-is complete-07:03:20:741
+Client 55-received cache address-07:03:21:405
+Client 55-connecting to cache server-localhost:56620-07:03:21:405
+Client 55-connected to cache server-07:03:21:406
+Client 55-requesting file from cache-07:03:21:406
+Client 55-received file info-350025,6-07:03:21:407
+Client 55-received file-07:03:21:420
+Client 55-is complete-07:03:21:421
+Client 62-started-file200k1.txt-07:03:38:633
+Client 65-started-file200k4.txt-07:03:38:662
+Client 69-started-file350k5.txt-07:03:38:691
+Client 63-started-file75k2.txt-07:03:38:703
+Client 67-started-file75k3.txt-07:03:38:699
+Client 66-started-file200k5.txt-07:03:38:713
+Client 64-started-file75k5.txt-07:03:38:720
+Client 70-started-file1m3.txt-07:03:38:748
+Client 71-started-file1m1.txt-07:03:38:750
+Client 68-started-file500k3.txt-07:03:38:753
+Client 66-connecting to doc server-07:03:38:980
+Client 66-connected to doc server-07:03:38:983
+Client 66-requesting a file-07:03:38:983
+Client 66-received filename-07:03:38:984
+Client 66-sent filename-07:03:38:985
+Client 66-received cache address-07:03:39:627
+Client 66-connecting to cache server-localhost:56648-07:03:39:628
+Client 66-connected to cache server-07:03:39:628
+Client 66-requesting file from cache-07:03:39:628
+Client 66-received file info-200031,4-07:03:39:629
+Client 66-received file-07:03:39:642
+Client 66-is complete-07:03:39:642
+Client 65-connecting to doc server-07:03:39:649
+Client 65-connected to doc server-07:03:39:649
+Client 65-requesting a file-07:03:39:650
+Client 65-received filename-07:03:39:650
+Client 65-sent filename-07:03:39:650
+Client 69-connecting to doc server-07:03:39:979
+Client 69-connected to doc server-07:03:39:980
+Client 69-requesting a file-07:03:39:981
+Client 69-received filename-07:03:39:981
+Client 69-sent filename-07:03:39:981
+Client 71-connecting to doc server-07:03:40:301
+Client 71-connected to doc server-07:03:40:302
+Client 71-requesting a file-07:03:40:302
+Client 71-received filename-07:03:40:302
+Client 71-sent filename-07:03:40:302
+Client 65-received cache address-07:03:40:344
+Client 65-connecting to cache server-localhost:56657-07:03:40:345
+Client 65-connected to cache server-07:03:40:345
+Client 65-requesting file from cache-07:03:40:345
+Client 65-received file info-200031,4-07:03:40:346
+Client 65-received file-07:03:40:355
+Client 65-is complete-07:03:40:356
+Client 68-connecting to doc server-07:03:40:385
+Client 68-connected to doc server-07:03:40:385
+Client 68-requesting a file-07:03:40:386
+Client 68-received filename-07:03:40:386
+Client 68-sent filename-07:03:40:386
+Client 63-connecting to doc server-07:03:40:868
+Client 63-connected to doc server-07:03:40:869
+Client 63-requesting a file-07:03:40:869
+Client 63-received filename-07:03:40:870
+Client 63-sent filename-07:03:40:870
+Client 69-received cache address-07:03:40:990
+Client 69-connecting to cache server-localhost:56665-07:03:40:991
+Client 69-connected to cache server-07:03:40:991
+Client 69-requesting file from cache-07:03:40:992
+Client 69-received file info-350025,6-07:03:40:992
+Client 69-received file-07:03:41:4
+Client 69-is complete-07:03:41:5
+Client 70-connecting to doc server-07:03:41:80
+Client 70-connected to doc server-07:03:41:82
+Client 70-requesting a file-07:03:41:84
+Client 70-received filename-07:03:41:84
+Client 70-sent filename-07:03:41:85
+Client 67-connecting to doc server-07:03:41:430
+Client 67-connected to doc server-07:03:41:433
+Client 67-requesting a file-07:03:41:434
+Client 67-received filename-07:03:41:435
+Client 67-sent filename-07:03:41:435
+Client 71-received cache address-07:03:41:727
+Client 71-connecting to cache server-localhost:56673-07:03:41:727
+Client 71-connected to cache server-07:03:41:728
+Client 71-requesting file from cache-07:03:41:729
+Client 71-received file info-1000038,17-07:03:41:729
+Client 71-received file-07:03:41:751
+Client 71-is complete-07:03:41:751
+Client 68-received cache address-07:03:42:415
+Client 63-received cache address-07:03:42:415
+Client 63-connecting to cache server-localhost:56324-07:03:42:416
+Client 68-connecting to cache server-localhost:56679-07:03:42:416
+Client 63-connected to cache server-07:03:42:417
+Client 63-requesting file from cache-07:03:42:417
+Client 68-connected to cache server-07:03:42:417
+Client 68-requesting file from cache-07:03:42:417
+Client 68-received file info-500019,9-07:03:42:418
+Client 63-received file info-75036,2-07:03:42:418
+Client 63-received file-07:03:42:426
+Client 63-is complete-07:03:42:427
+Client 68-received file-07:03:42:441
+Client 68-is complete-07:03:42:441
+Client 62-connecting to doc server-07:03:42:609
+Client 62-connected to doc server-07:03:42:612
+Client 62-requesting a file-07:03:42:613
+Client 62-received filename-07:03:42:613
+Client 62-sent filename-07:03:42:614
+Client 64-connecting to doc server-07:03:42:802
+Client 64-connected to doc server-07:03:42:803
+Client 64-requesting a file-07:03:42:803
+Client 64-received filename-07:03:42:803
+Client 64-sent filename-07:03:42:803
+Client 70-received cache address-07:03:43:114
+Client 70-connecting to cache server-localhost:56688-07:03:43:115
+Client 70-connected to cache server-07:03:43:116
+Client 70-requesting file from cache-07:03:43:116
+Client 70-received file info-1000038,17-07:03:43:116
+Client 70-received file-07:03:43:139
+Client 70-is complete-07:03:43:139
+Client 67-received cache address-07:03:43:772
+Client 62-received cache address-07:03:43:772
+Client 62-connecting to cache server-localhost:56246-07:03:43:773
+Client 67-connecting to cache server-localhost:56694-07:03:43:773
+Client 62-connected to cache server-07:03:43:773
+Client 67-connected to cache server-07:03:43:773
+Client 62-requesting file from cache-07:03:43:773
+Client 67-requesting file from cache-07:03:43:773
+Client 67-received file info-75036,2-07:03:43:774
+Client 62-received file info-200031,4-07:03:43:774
+Client 62-received file-07:03:43:777
+Client 62-is complete-07:03:43:777
+Client 67-received file-07:03:43:780
+Client 67-is complete-07:03:43:781
+Client 64-received cache address-07:03:44:444
+Client 64-connecting to cache server-localhost:56701-07:03:44:445
+Client 64-connected to cache server-07:03:44:446
+Client 64-requesting file from cache-07:03:44:446
+Client 64-received file info-75036,2-07:03:44:447
+Client 64-received file-07:03:44:452
+Client 64-is complete-07:03:44:453
+Client 73-started-file130k5.txt-07:04:01:721
+Client 75-started-file75k5.txt-07:04:01:743
+Client 79-started-file110k1.txt-07:04:01:748
+Client 72-started-file1m2.txt-07:04:01:755
+Client 80-started-file130k5.txt-07:04:01:772
+Client 74-started-file1m2.txt-07:04:01:773
+Client 78-started-file110k4.txt-07:04:01:807
+Client 77-started-file200k1.txt-07:04:01:808
+Client 76-started-file75k2.txt-07:04:01:816
+Client 73-connecting to doc server-07:04:02:120
+Client 73-connected to doc server-07:04:02:123
+Client 73-requesting a file-07:04:02:123
+Client 73-received filename-07:04:02:124
+Client 73-sent filename-07:04:02:125
+Client 74-connecting to doc server-07:04:02:184
+Client 74-connected to doc server-07:04:02:187
+Client 74-requesting a file-07:04:02:188
+Client 74-received filename-07:04:02:190
+Client 74-sent filename-07:04:02:191
+Client 76-connecting to doc server-07:04:02:767
+Client 76-connected to doc server-07:04:02:768
+Client 76-requesting a file-07:04:02:768
+Client 76-received filename-07:04:02:768
+Client 76-sent filename-07:04:02:768
+Client 73-received cache address-07:04:02:794
+Client 73-connecting to cache server-localhost:56730-07:04:02:795
+Client 73-connected to cache server-07:04:02:795
+Client 73-requesting file from cache-07:04:02:796
+Client 73-received file info-130026,3-07:04:02:796
+Client 73-received file-07:04:02:803
+Client 73-is complete-07:04:02:803
+Client 74-received cache address-07:04:03:501
+Client 76-received cache address-07:04:03:501
+Client 76-connecting to cache server-localhost:56324-07:04:03:502
+Client 74-connecting to cache server-localhost:56737-07:04:03:502
+Client 76-connected to cache server-07:04:03:502
+Client 74-connected to cache server-07:04:03:502
+Client 76-requesting file from cache-07:04:03:503
+Client 74-requesting file from cache-07:04:03:503
+Client 76-received file info-75036,2-07:04:03:504
+Client 74-received file info-1000038,17-07:04:03:504
+Client 76-received file-07:04:03:505
+Client 76-is complete-07:04:03:505
+Client 79-connecting to doc server-07:04:03:516
+Client 79-connected to doc server-07:04:03:517
+Client 79-requesting a file-07:04:03:517
+Client 79-received filename-07:04:03:519
+Client 79-sent filename-07:04:03:519
+Client 74-received file-07:04:03:529
+Client 74-is complete-07:04:03:529
+Client 77-connecting to doc server-07:04:03:590
+Client 77-connected to doc server-07:04:03:593
+Client 77-requesting a file-07:04:03:593
+Client 77-received filename-07:04:03:594
+Client 77-sent filename-07:04:03:595
+Client 79-received cache address-07:04:04:201
+Client 77-received cache address-07:04:04:201
+Client 77-connecting to cache server-localhost:56246-07:04:04:202
+Client 79-connecting to cache server-localhost:56746-07:04:04:202
+Client 79-connected to cache server-07:04:04:203
+Client 77-connected to cache server-07:04:04:203
+Client 79-requesting file from cache-07:04:04:203
+Client 77-requesting file from cache-07:04:04:203
+Client 77-received file info-200031,4-07:04:04:203
+Client 79-received file info-110019,2-07:04:04:204
+Client 77-received file-07:04:04:205
+Client 77-is complete-07:04:04:206
+Client 79-received file-07:04:04:212
+Client 79-is complete-07:04:04:212
+Client 75-connecting to doc server-07:04:04:233
+Client 75-connected to doc server-07:04:04:234
+Client 75-requesting a file-07:04:04:234
+Client 75-received filename-07:04:04:235
+Client 75-sent filename-07:04:04:235
+Client 75-received cache address-07:04:04:912
+Client 75-connecting to cache server-localhost:56754-07:04:04:913
+Client 75-connected to cache server-07:04:04:914
+Client 75-requesting file from cache-07:04:04:914
+Client 75-received file info-75036,2-07:04:04:915
+Client 75-received file-07:04:04:921
+Client 75-is complete-07:04:04:921
+Client 78-connecting to doc server-07:04:05:9
+Client 78-connected to doc server-07:04:05:11
+Client 78-requesting a file-07:04:05:12
+Client 78-received filename-07:04:05:12
+Client 78-sent filename-07:04:05:13
+Client 80-connecting to doc server-07:04:05:564
+Client 80-connected to doc server-07:04:05:565
+Client 80-requesting a file-07:04:05:566
+Client 80-received filename-07:04:05:566
+Client 80-sent filename-07:04:05:567
+Client 78-received cache address-07:04:05:691
+Client 78-connecting to cache server-localhost:56762-07:04:05:692
+Client 78-connected to cache server-07:04:05:692
+Client 78-requesting file from cache-07:04:05:692
+Client 78-received file info-110019,2-07:04:05:693
+Client 78-received file-07:04:05:699
+Client 78-is complete-07:04:05:700
+Client 72-connecting to doc server-07:04:06:294
+Client 72-connected to doc server-07:04:06:295
+Client 72-requesting a file-07:04:06:295
+Client 72-received filename-07:04:06:295
+Client 72-sent filename-07:04:06:295
+Client 80-received cache address-07:04:06:362
+Client 80-connecting to cache server-localhost:56769-07:04:06:363
+Client 80-connected to cache server-07:04:06:363
+Client 80-requesting file from cache-07:04:06:364
+Client 80-received file info-130026,3-07:04:06:364
+Client 80-received file-07:04:06:371
+Client 80-is complete-07:04:06:371
+Client 72-received cache address-07:04:07:67
+Client 72-connecting to cache server-localhost:56775-07:04:07:68
+Client 72-connected to cache server-07:04:07:69
+Client 72-requesting file from cache-07:04:07:69
+Client 72-received file info-1000038,17-07:04:07:71
+Client 72-received file-07:04:07:94
+Client 72-is complete-07:04:07:95
+Client 88-started-file200k1.txt-07:04:21:874
+Client 87-started-file500k5.txt-07:04:21:828
+Client 90-started-file130k4.txt-07:04:21:828
+Client 85-started-file130k5.txt-07:04:21:900
+Client 86-started-file110k1.txt-07:04:21:915
+Client 84-started-file130k1.txt-07:04:21:856
+Client 91-started-file1m1.txt-07:04:21:904
+Client 89-started-file500k5.txt-07:04:21:870
+Client 83-started-file1m3.txt-07:04:21:912
+Client 92-started-file110k3.txt-07:04:21:905
+Client 81-started-file200k5.txt-07:04:21:896
+Client 82-started-file1m4.txt-07:04:21:924
+Client 87-connecting to doc server-07:04:22:108
+Client 87-connected to doc server-07:04:22:111
+Client 87-requesting a file-07:04:22:112
+Client 87-received filename-07:04:22:112
+Client 87-sent filename-07:04:22:113
+Client 86-connecting to doc server-07:04:22:600
+Client 86-connected to doc server-07:04:22:603
+Client 86-requesting a file-07:04:22:604
+Client 86-received filename-07:04:22:605
+Client 86-sent filename-07:04:22:605
+Client 87-received cache address-07:04:22:798
+Client 87-connecting to cache server-localhost:56807-07:04:22:799
+Client 87-connected to cache server-07:04:22:799
+Client 87-requesting file from cache-07:04:22:799
+Client 87-received file info-500019,9-07:04:22:800
+Client 87-received file-07:04:22:815
+Client 87-is complete-07:04:22:815
+Client 82-connecting to doc server-07:04:22:926
+Client 82-connected to doc server-07:04:22:929
+Client 82-requesting a file-07:04:22:930
+Client 82-received filename-07:04:22:931
+Client 82-sent filename-07:04:22:932
+Client 88-connecting to doc server-07:04:22:937
+Client 88-connected to doc server-07:04:22:940
+Client 88-requesting a file-07:04:22:940
+Client 88-received filename-07:04:22:941
+Client 88-sent filename-07:04:22:942
+Client 89-connecting to doc server-07:04:22:951
+Client 89-connected to doc server-07:04:22:957
+Client 89-requesting a file-07:04:22:958
+Client 89-received filename-07:04:22:961
+Client 89-sent filename-07:04:22:961
+Client 86-received cache address-07:04:23:477
+Client 86-connecting to cache server-localhost:56816-07:04:23:478
+Client 86-connected to cache server-07:04:23:479
+Client 86-requesting file from cache-07:04:23:479
+Client 86-received file info-110019,2-07:04:23:479
+Client 86-received file-07:04:23:486
+Client 86-is complete-07:04:23:486
+Client 82-received cache address-07:04:24:166
+Client 88-received cache address-07:04:24:166
+Client 88-connecting to cache server-localhost:56246-07:04:24:167
+Client 82-connecting to cache server-localhost:56822-07:04:24:167
+Client 88-connected to cache server-07:04:24:167
+Client 82-connected to cache server-07:04:24:168
+Client 88-requesting file from cache-07:04:24:168
+Client 82-requesting file from cache-07:04:24:168
+Client 88-received file info-200031,4-07:04:24:169
+Client 82-received file info-1000038,17-07:04:24:169
+Client 88-received file-07:04:24:171
+Client 88-is complete-07:04:24:171
+Client 82-received file-07:04:24:194
+Client 82-is complete-07:04:24:195
+Client 92-connecting to doc server-07:04:24:261
+Client 92-connected to doc server-07:04:24:264
+Client 92-requesting a file-07:04:24:265
+Client 92-received filename-07:04:24:266
+Client 92-sent filename-07:04:24:266
+Client 90-connecting to doc server-07:04:24:649
+Client 90-connected to doc server-07:04:24:652
+Client 90-requesting a file-07:04:24:653
+Client 90-received filename-07:04:24:653
+Client 90-sent filename-07:04:24:654
+Client 83-connecting to doc server-07:04:24:821
+Client 83-connected to doc server-07:04:24:822
+Client 83-requesting a file-07:04:24:822
+Client 83-received filename-07:04:24:822
+Client 83-sent filename-07:04:24:823
+Client 89-received cache address-07:04:24:859
+Client 89-connecting to cache server-localhost:56832-07:04:24:860
+Client 89-connected to cache server-07:04:24:860
+Client 89-requesting file from cache-07:04:24:861
+Client 89-received file info-500019,9-07:04:24:861
+Client 89-received file-07:04:24:877
+Client 89-is complete-07:04:24:877
+Client 91-connecting to doc server-07:04:24:880
+Client 91-connected to doc server-07:04:24:881
+Client 91-requesting a file-07:04:24:881
+Client 91-received filename-07:04:24:881
+Client 91-sent filename-07:04:24:881
+Client 92-received cache address-07:04:25:525
+Client 92-connecting to cache server-localhost:56839-07:04:25:526
+Client 92-connected to cache server-07:04:25:526
+Client 92-requesting file from cache-07:04:25:526
+Client 92-received file info-110019,2-07:04:25:527
+Client 92-received file-07:04:25:533
+Client 92-is complete-07:04:25:534
+Client 84-connecting to doc server-07:04:25:600
+Client 84-connected to doc server-07:04:25:601
+Client 84-requesting a file-07:04:25:602
+Client 84-received filename-07:04:25:602
+Client 84-sent filename-07:04:25:602
+Client 85-connecting to doc server-07:04:25:879
+Client 85-connected to doc server-07:04:25:882
+Client 85-requesting a file-07:04:25:883
+Client 85-received filename-07:04:25:883
+Client 85-sent filename-07:04:25:884
+Client 90-received cache address-07:04:26:173
+Client 90-connecting to cache server-localhost:56847-07:04:26:173
+Client 90-connected to cache server-07:04:26:174
+Client 90-requesting file from cache-07:04:26:174
+Client 90-received file info-130026,3-07:04:26:175
+Client 90-received file-07:04:26:183
+Client 90-is complete-07:04:26:183
+Client 81-connecting to doc server-07:04:26:512
+Client 81-connected to doc server-07:04:26:515
+Client 81-requesting a file-07:04:26:516
+Client 81-received filename-07:04:26:517
+Client 81-sent filename-07:04:26:517
+Client 83-received cache address-07:04:26:892
+Client 83-connecting to cache server-localhost:56854-07:04:26:893
+Client 83-connected to cache server-07:04:26:894
+Client 83-requesting file from cache-07:04:26:894
+Client 83-received file info-1000038,17-07:04:26:895
+Client 83-received file-07:04:26:917
+Client 83-is complete-07:04:26:918
+Client 91-received cache address-07:04:27:637
+Client 84-received cache address-07:04:27:638
+Client 91-connecting to cache server-localhost:56860-07:04:27:639
+Client 84-connecting to cache server-localhost:56195-07:04:27:639
+Client 91-connected to cache server-07:04:27:639
+Client 84-connected to cache server-07:04:27:640
+Client 91-requesting file from cache-07:04:27:640
+Client 84-requesting file from cache-07:04:27:640
+Client 91-received file info-1000038,17-07:04:27:641
+Client 84-received file info-130026,3-07:04:27:641
+Client 84-received file-07:04:27:643
+Client 84-is complete-07:04:27:643
+Client 91-received file-07:04:27:666
+Client 91-is complete-07:04:27:666
+Client 85-received cache address-07:04:28:320
+Client 85-connecting to cache server-localhost:56867-07:04:28:320
+Client 85-connected to cache server-07:04:28:321
+Client 85-requesting file from cache-07:04:28:321
+Client 85-received file info-130026,3-07:04:28:322
+Client 85-received file-07:04:28:329
+Client 85-is complete-07:04:28:330
+Client 81-received cache address-07:04:28:988
+Client 81-connecting to cache server-localhost:56873-07:04:28:989
+Client 81-connected to cache server-07:04:28:990
+Client 81-requesting file from cache-07:04:28:990
+Client 81-received file info-200031,4-07:04:28:991
+Client 81-received file-07:04:29:1
+Client 81-is complete-07:04:29:1
+Client 95-started-file500k3.txt-07:04:41:756
+Client 94-started-file1m5.txt-07:04:41:766
+Client 93-started-file350k2.txt-07:04:41:780
+Client 97-started-file75k5.txt-07:04:41:786
+Client 98-started-file75k4.txt-07:04:41:798
+Client 96-started-file350k1.txt-07:04:41:829
+Client 99-started-file200k3.txt-07:04:41:835
+Client 100-started-file200k4.txt-07:04:41:844
+Client 97-connecting to doc server-07:04:42:61
+Client 97-connected to doc server-07:04:42:64
+Client 97-requesting a file-07:04:42:64
+Client 97-received filename-07:04:42:65
+Client 97-sent filename-07:04:42:66
+Client 93-connecting to doc server-07:04:42:538
+Client 93-connected to doc server-07:04:42:540
+Client 93-requesting a file-07:04:42:540
+Client 93-received filename-07:04:42:541
+Client 93-sent filename-07:04:42:541
+Client 97-received cache address-07:04:42:723
+Client 97-connecting to cache server-localhost:56897-07:04:42:723
+Client 97-connected to cache server-07:04:42:724
+Client 97-requesting file from cache-07:04:42:724
+Client 97-received file info-75036,2-07:04:42:725
+Client 97-received file-07:04:42:731
+Client 97-is complete-07:04:42:731
+Client 95-connecting to doc server-07:04:42:778
+Client 95-connected to doc server-07:04:42:779
+Client 95-requesting a file-07:04:42:779
+Client 95-received filename-07:04:42:779
+Client 95-sent filename-07:04:42:779
+Client 93-received cache address-07:04:43:405
+Client 93-connecting to cache server-localhost:56904-07:04:43:405
+Client 93-connected to cache server-07:04:43:406
+Client 93-requesting file from cache-07:04:43:406
+Client 93-received file info-350025,6-07:04:43:407
+Client 93-received file-07:04:43:420
+Client 93-is complete-07:04:43:420
+Client 96-connecting to doc server-07:04:44:71
+Client 96-connected to doc server-07:04:44:72
+Client 96-requesting a file-07:04:44:72
+Client 96-received filename-07:04:44:72
+Client 96-sent filename-07:04:44:72
+Client 95-received cache address-07:04:44:82
+Client 95-connecting to cache server-localhost:56911-07:04:44:83
+Client 95-connected to cache server-07:04:44:84
+Client 95-requesting file from cache-07:04:44:84
+Client 95-received file info-500019,9-07:04:44:84
+Client 95-received file-07:04:44:102
+Client 95-is complete-07:04:44:103
+Client 96-received cache address-07:04:44:714
+Client 96-connecting to cache server-localhost:56917-07:04:44:715
+Client 96-connected to cache server-07:04:44:715
+Client 96-requesting file from cache-07:04:44:715
+Client 96-received file info-350025,6-07:04:44:716
+Client 96-received file-07:04:44:729
+Client 96-is complete-07:04:44:729
+Client 94-connecting to doc server-07:04:45:178
+Client 94-connected to doc server-07:04:45:179
+Client 94-requesting a file-07:04:45:179
+Client 94-received filename-07:04:45:180
+Client 94-sent filename-07:04:45:180
+Client 94-received cache address-07:04:45:888
+Client 94-connecting to cache server-localhost:56924-07:04:45:888
+Client 94-connected to cache server-07:04:45:889
+Client 94-requesting file from cache-07:04:45:889
+Client 94-received file info-1000038,17-07:04:45:890
+Client 94-received file-07:04:45:913
+Client 94-is complete-07:04:45:913
+Client 98-connecting to doc server-07:04:45:950
+Client 98-connected to doc server-07:04:45:951
+Client 98-requesting a file-07:04:45:952
+Client 98-received filename-07:04:45:952
+Client 98-sent filename-07:04:45:952
+Client 100-connecting to doc server-07:04:46:447
+Client 100-connected to doc server-07:04:46:449
+Client 100-requesting a file-07:04:46:450
+Client 100-received filename-07:04:46:451
+Client 100-sent filename-07:04:46:452
+Client 99-connecting to doc server-07:04:46:596
+Client 99-connected to doc server-07:04:46:597
+Client 99-requesting a file-07:04:46:597
+Client 99-received filename-07:04:46:597
+Client 99-sent filename-07:04:46:597
+Client 98-received cache address-07:04:46:610
+Client 98-connecting to cache server-localhost:56933-07:04:46:611
+Client 98-connected to cache server-07:04:46:611
+Client 98-requesting file from cache-07:04:46:612
+Client 98-received file info-75036,2-07:04:46:612
+Client 98-received file-07:04:46:618
+Client 98-is complete-07:04:46:618
+Client 100-received cache address-07:04:47:272
+Client 100-connecting to cache server-localhost:56939-07:04:47:272
+Client 100-connected to cache server-07:04:47:273
+Client 100-requesting file from cache-07:04:47:273
+Client 100-received file info-200031,4-07:04:47:274
+Client 100-received file-07:04:47:282
+Client 100-is complete-07:04:47:283
+Client 99-received cache address-07:04:47:951
+Client 99-connecting to cache server-localhost:56945-07:04:47:952
+Client 99-connected to cache server-07:04:47:953
+Client 99-requesting file from cache-07:04:47:954
+Client 99-received file info-200031,4-07:04:47:955
+Client 99-received file-07:04:47:964
+Client 99-is complete-07:04:47:964
+Client 102-started-file1m5.txt-07:04:57:925
+Client 107-started-file130k1.txt-07:04:57:911
+Client 105-started-file75k5.txt-07:04:57:928
+Client 111-started-file75k2.txt-07:04:57:931
+Client 103-started-file75k5.txt-07:04:57:942
+Client 112-started-file350k4.txt-07:04:57:986
+Client 106-started-file75k1.txt-07:04:57:994
+Client 104-started-file110k3.txt-07:04:58:17
+Client 110-started-file75k5.txt-07:04:58:27
+Client 109-started-file75k2.txt-07:04:58:39
+Client 108-started-file500k3.txt-07:04:58:39
+Client 101-started-file200k3.txt-07:04:58:40
+Client 105-connecting to doc server-07:04:58:182
+Client 105-connected to doc server-07:04:58:185
+Client 105-requesting a file-07:04:58:186
+Client 105-received filename-07:04:58:187
+Client 105-sent filename-07:04:58:188
+Client 105-received cache address-07:04:58:189
+Client 105-connecting to cache server-localhost:56897-07:04:58:191
+Client 105-connected to cache server-07:04:58:193
+Client 105-requesting file from cache-07:04:58:194
+Client 105-received file info-75036,2-07:04:58:195
+Client 105-received file-07:04:58:204
+Client 105-is complete-07:04:58:205
+Client 109-connecting to doc server-07:04:58:591
+Client 109-connected to doc server-07:04:58:594
+Client 109-requesting a file-07:04:58:595
+Client 109-received filename-07:04:58:596
+Client 109-sent filename-07:04:58:597
+Client 109-received cache address-07:04:58:597
+Client 109-connecting to cache server-localhost:56324-07:04:58:599
+Client 109-connected to cache server-07:04:58:601
+Client 109-requesting file from cache-07:04:58:602
+Client 109-received file info-75036,2-07:04:58:603
+Client 109-received file-07:04:58:606
+Client 109-is complete-07:04:58:607
+Client 108-connecting to doc server-07:04:59:90
+Client 108-connected to doc server-07:04:59:93
+Client 108-requesting a file-07:04:59:93
+Client 108-received filename-07:04:59:94
+Client 108-sent filename-07:04:59:95
+Client 108-received cache address-07:04:59:779
+Client 108-connecting to cache server-localhost:56982-07:04:59:780
+Client 108-connected to cache server-07:04:59:781
+Client 108-requesting file from cache-07:04:59:781
+Client 108-received file info-500019,9-07:04:59:782
+Client 108-received file-07:04:59:797
+Client 108-is complete-07:04:59:797
+Client 102-connecting to doc server-07:04:59:892
+Client 102-connected to doc server-07:04:59:895
+Client 102-requesting a file-07:04:59:895
+Client 102-received filename-07:04:59:896
+Client 102-sent filename-07:04:59:897
+Client 102-received cache address-07:05:00:642
+Client 102-connecting to cache server-localhost:56989-07:05:00:643
+Client 102-connected to cache server-07:05:00:643
+Client 102-requesting file from cache-07:05:00:644
+Client 102-received file info-1000038,17-07:05:00:645
+Client 102-received file-07:05:00:668
+Client 102-is complete-07:05:00:668
+Client 103-connecting to doc server-07:05:00:964
+Client 103-connected to doc server-07:05:00:968
+Client 103-requesting a file-07:05:00:968
+Client 103-received filename-07:05:00:970
+Client 103-sent filename-07:05:00:971
+Client 103-received cache address-07:05:00:972
+Client 103-connecting to cache server-localhost:56897-07:05:00:974
+Client 103-connected to cache server-07:05:00:976
+Client 103-requesting file from cache-07:05:00:977
+Client 103-received file info-75036,2-07:05:00:978
+Client 103-received file-07:05:00:980
+Client 103-is complete-07:05:00:981
+Client 106-connecting to doc server-07:05:01:30
+Client 106-connected to doc server-07:05:01:31
+Client 106-requesting a file-07:05:01:31
+Client 106-received filename-07:05:01:31
+Client 106-sent filename-07:05:01:31
+Client 107-connecting to doc server-07:05:01:223
+Client 107-connected to doc server-07:05:01:226
+Client 107-requesting a file-07:05:01:227
+Client 107-received filename-07:05:01:228
+Client 107-sent filename-07:05:01:228
+Client 111-connecting to doc server-07:05:01:583
+Client 111-connected to doc server-07:05:01:584
+Client 111-requesting a file-07:05:01:585
+Client 111-received filename-07:05:01:585
+Client 111-sent filename-07:05:01:586
+Client 106-received cache address-07:05:01:723
+Client 107-received cache address-07:05:01:723
+Client 111-received cache address-07:05:01:723
+Client 106-connecting to cache server-localhost:57000-07:05:01:724
+Client 107-connecting to cache server-localhost:56195-07:05:01:724
+Client 111-connecting to cache server-localhost:56324-07:05:01:724
+Client 106-connected to cache server-07:05:01:725
+Client 111-connected to cache server-07:05:01:725
+Client 107-connected to cache server-07:05:01:725
+Client 111-requesting file from cache-07:05:01:725
+Client 106-requesting file from cache-07:05:01:725
+Client 107-requesting file from cache-07:05:01:725
+Client 111-received file info-75036,2-07:05:01:726
+Client 107-received file info-130026,3-07:05:01:726
+Client 111-received file-07:05:01:727
+Client 111-is complete-07:05:01:727
+Client 107-received file-07:05:01:727
+Client 107-is complete-07:05:01:728
+Client 106-received file info-75036,2-07:05:01:728
+Client 106-received file-07:05:01:734
+Client 106-is complete-07:05:01:734
+Client 112-connecting to doc server-07:05:01:969
+Client 112-connected to doc server-07:05:01:970
+Client 112-requesting a file-07:05:01:970
+Client 112-received filename-07:05:01:971
+Client 112-sent filename-07:05:01:971
+Client 112-received cache address-07:05:01:972
+Client 112-connecting to cache server-localhost:56240-07:05:01:973
+Client 112-connected to cache server-07:05:01:974
+Client 112-requesting file from cache-07:05:01:974
+Client 112-received file info-350025,6-07:05:01:974
+Client 112-received file-07:05:01:980
+Client 112-is complete-07:05:01:980
+Client 101-connecting to doc server-07:05:02:1
+Client 101-connected to doc server-07:05:02:2
+Client 101-requesting a file-07:05:02:3
+Client 101-received filename-07:05:02:4
+Client 101-sent filename-07:05:02:4
+Client 101-received cache address-07:05:02:674
+Client 101-connecting to cache server-localhost:57011-07:05:02:675
+Client 101-connected to cache server-07:05:02:676
+Client 101-requesting file from cache-07:05:02:676
+Client 101-received file info-200031,4-07:05:02:677
+Client 101-received file-07:05:02:686
+Client 101-is complete-07:05:02:687
+Client 110-connecting to doc server-07:05:02:796
+Client 110-connected to doc server-07:05:02:799
+Client 110-requesting a file-07:05:02:800
+Client 110-received filename-07:05:02:801
+Client 110-sent filename-07:05:02:802
+Client 110-received cache address-07:05:02:803
+Client 110-connecting to cache server-localhost:56897-07:05:02:805
+Client 110-connected to cache server-07:05:02:806
+Client 110-requesting file from cache-07:05:02:807
+Client 110-received file info-75036,2-07:05:02:808
+Client 110-received file-07:05:02:812
+Client 110-is complete-07:05:02:812
+Client 104-connecting to doc server-07:05:03:39
+Client 104-connected to doc server-07:05:03:42
+Client 104-requesting a file-07:05:03:43
+Client 104-received filename-07:05:03:43
+Client 104-sent filename-07:05:03:44
+Client 104-received cache address-07:05:03:748
+Client 104-connecting to cache server-localhost:57020-07:05:03:748
+Client 104-connected to cache server-07:05:03:749
+Client 104-requesting file from cache-07:05:03:749
+Client 104-received file info-110019,2-07:05:03:750
+Client 104-received file-07:05:03:757
+Client 104-is complete-07:05:03:757
+Client 124-started-file110k2.txt-07:05:20:825
+Client 116-started-file130k3.txt-07:05:20:954
+Client 117-started-file200k2.txt-07:05:20:964
+Client 113-started-file1m5.txt-07:05:21:14
+Client 120-started-file110k5.txt-07:05:21:31
+Client 121-started-file500k3.txt-07:05:21:62
+Client 122-started-file130k2.txt-07:05:21:55
+Client 119-started-file130k1.txt-07:05:21:89
+Client 118-started-file1m3.txt-07:05:21:95
+Client 123-started-file350k5.txt-07:05:21:103
+Client 115-started-file200k2.txt-07:05:21:106
+Client 114-started-file130k1.txt-07:05:21:138
+Client 120-connecting to doc server-07:05:21:590
+Client 120-connected to doc server-07:05:21:593
+Client 120-requesting a file-07:05:21:594
+Client 120-received filename-07:05:21:595
+Client 120-sent filename-07:05:21:596
+Client 116-connecting to doc server-07:05:22:61
+Client 116-connected to doc server-07:05:22:64
+Client 116-requesting a file-07:05:22:65
+Client 116-received filename-07:05:22:65
+Client 116-sent filename-07:05:22:66
+Client 120-received cache address-07:05:22:267
+Client 120-connecting to cache server-localhost:57056-07:05:22:268
+Client 120-connected to cache server-07:05:22:269
+Client 120-requesting file from cache-07:05:22:269
+Client 120-received file info-110019,2-07:05:22:269
+Client 120-received file-07:05:22:276
+Client 120-is complete-07:05:22:276
+Client 122-connecting to doc server-07:05:22:385
+Client 122-connected to doc server-07:05:22:386
+Client 122-requesting a file-07:05:22:386
+Client 122-received filename-07:05:22:386
+Client 122-sent filename-07:05:22:386
+Client 121-connecting to doc server-07:05:22:627
+Client 121-connected to doc server-07:05:22:630
+Client 121-requesting a file-07:05:22:631
+Client 121-received filename-07:05:22:632
+Client 121-sent filename-07:05:22:633
+Client 123-connecting to doc server-07:05:23:16
+Client 123-connected to doc server-07:05:23:16
+Client 123-requesting a file-07:05:23:17
+Client 131-started-file130k1.txt-07:05:23:49
+Client 123-received filename-07:05:23:60
+Client 123-sent filename-07:05:23:60
+Client 133-started-file500k2.txt-07:05:23:75
+Client 130-started-file500k5.txt-07:05:23:82
+Client 129-started-file200k5.txt-07:05:23:103
+Client 128-started-file350k5.txt-07:05:23:141
+Client 134-started-file130k2.txt-07:05:23:132
+Client 127-started-file200k3.txt-07:05:23:160
+Client 132-started-file200k5.txt-07:05:23:196
+Client 136-started-file500k4.txt-07:05:23:206
+Client 126-started-file130k4.txt-07:05:23:210
+Client 125-started-file350k1.txt-07:05:23:219
+Client 135-started-file350k4.txt-07:05:23:222
+Client 130-connecting to doc server-07:05:23:242
+Client 130-connected to doc server-07:05:23:243
+Client 130-requesting a file-07:05:23:243
+Client 130-received filename-07:05:23:244
+Client 130-sent filename-07:05:23:244
+Client 116-received cache address-07:05:23:309
+Client 116-connecting to cache server-localhost:57090-07:05:23:310
+Client 116-connected to cache server-07:05:23:311
+Client 116-requesting file from cache-07:05:23:311
+Client 116-received file info-130026,3-07:05:23:311
+Client 116-received file-07:05:23:318
+Client 116-is complete-07:05:23:318
+Client 115-connecting to doc server-07:05:23:398
+Client 115-connected to doc server-07:05:23:401
+Client 115-requesting a file-07:05:23:401
+Client 115-received filename-07:05:23:403
+Client 115-sent filename-07:05:23:403
+Client 132-connecting to doc server-07:05:23:444
+Client 132-connected to doc server-07:05:23:446
+Client 132-requesting a file-07:05:23:447
+Client 132-received filename-07:05:23:448
+Client 132-sent filename-07:05:23:449
+Client 119-connecting to doc server-07:05:23:466
+Client 119-connected to doc server-07:05:23:470
+Client 119-requesting a file-07:05:23:471
+Client 119-received filename-07:05:23:472
+Client 119-sent filename-07:05:23:473
+Client 124-connecting to doc server-07:05:23:506
+Client 124-connected to doc server-07:05:23:509
+Client 124-requesting a file-07:05:23:510
+Client 124-received filename-07:05:23:511
+Client 124-sent filename-07:05:23:512
+Client 129-connecting to doc server-07:05:23:871
+Client 129-connected to doc server-07:05:23:872
+Client 129-requesting a file-07:05:23:872
+Client 129-received filename-07:05:23:872
+Client 129-sent filename-07:05:23:872
+Client 122-received cache address-07:05:23:964
+Client 122-connecting to cache server-localhost:57101-07:05:23:964
+Client 122-connected to cache server-07:05:23:965
+Client 122-requesting file from cache-07:05:23:965
+Client 122-received file info-130026,3-07:05:23:966
+Client 122-received file-07:05:23:974
+Client 122-is complete-07:05:23:974
+Client 131-connecting to doc server-07:05:24:151
+Client 131-connected to doc server-07:05:24:153
+Client 131-requesting a file-07:05:24:153
+Client 131-received filename-07:05:24:154
+Client 131-sent filename-07:05:24:154
+Client 133-connecting to doc server-07:05:24:233
+Client 133-connected to doc server-07:05:24:237
+Client 133-requesting a file-07:05:24:238
+Client 133-received filename-07:05:24:239
+Client 133-sent filename-07:05:24:239
+Client 134-connecting to doc server-07:05:24:456
+Client 134-connected to doc server-07:05:24:459
+Client 134-requesting a file-07:05:24:459
+Client 134-received filename-07:05:24:460
+Client 134-sent filename-07:05:24:461
+Client 117-connecting to doc server-07:05:24:547
+Client 117-connected to doc server-07:05:24:547
+Client 117-requesting a file-07:05:24:548
+Client 117-received filename-07:05:24:548
+Client 117-sent filename-07:05:24:548
+Client 121-received cache address-07:05:24:664
+Client 121-connecting to cache server-localhost:57111-07:05:24:664
+Client 121-connected to cache server-07:05:24:665
+Client 121-requesting file from cache-07:05:24:665
+Client 121-received file info-500019,9-07:05:24:666
+Client 121-received file-07:05:24:681
+Client 121-is complete-07:05:24:681
+Client 136-connecting to doc server-07:05:24:694
+Client 136-connected to doc server-07:05:24:695
+Client 136-requesting a file-07:05:24:695
+Client 136-received filename-07:05:24:695
+Client 136-sent filename-07:05:24:696
+Client 118-connecting to doc server-07:05:24:786
+Client 118-connected to doc server-07:05:24:788
+Client 118-requesting a file-07:05:24:788
+Client 118-received filename-07:05:24:789
+Client 118-sent filename-07:05:24:789
+Client 114-connecting to doc server-07:05:24:859
+Client 114-connected to doc server-07:05:24:862
+Client 114-requesting a file-07:05:24:862
+Client 114-received filename-07:05:24:863
+Client 114-sent filename-07:05:24:864
+Client 113-connecting to doc server-07:05:24:956
+Client 113-connected to doc server-07:05:24:960
+Client 113-requesting a file-07:05:24:961
+Client 113-received filename-07:05:24:962
+Client 113-sent filename-07:05:24:963
+Client 126-connecting to doc server-07:05:25:244
+Client 126-connected to doc server-07:05:25:245
+Client 126-requesting a file-07:05:25:245
+Client 126-received filename-07:05:25:246
+Client 126-sent filename-07:05:25:246
+Client 123-received cache address-07:05:25:300
+Client 123-connecting to cache server-localhost:57122-07:05:25:300
+Client 123-connected to cache server-07:05:25:301
+Client 123-requesting file from cache-07:05:25:301
+Client 123-received file info-350025,6-07:05:25:304
+Client 123-received file-07:05:25:316
+Client 123-is complete-07:05:25:317
+Client 130-received cache address-07:05:25:952
+Client 130-connecting to cache server-localhost:57128-07:05:25:953
+Client 130-connected to cache server-07:05:25:954
+Client 130-requesting file from cache-07:05:25:955
+Client 130-received file info-500019,9-07:05:25:956
+Client 130-received file-07:05:25:971
+Client 130-is complete-07:05:25:971
+Client 135-connecting to doc server-07:05:26:304
+Client 135-connected to doc server-07:05:26:305
+Client 135-requesting a file-07:05:26:305
+Client 135-received filename-07:05:26:307
+Client 135-sent filename-07:05:26:307
+Client 115-received cache address-07:05:26:623
+Client 115-connecting to cache server-localhost:57136-07:05:26:623
+Client 115-connected to cache server-07:05:26:624
+Client 115-requesting file from cache-07:05:26:624
+Client 115-received file info-200031,4-07:05:26:634
+Client 115-received file-07:05:26:643
+Client 115-is complete-07:05:26:644
+Client 119-received cache address-07:05:27:299
+Client 132-received cache address-07:05:27:299
+Client 119-connecting to cache server-localhost:56195-07:05:27:299
+Client 132-connecting to cache server-localhost:57142-07:05:27:299
+Client 119-connected to cache server-07:05:27:300
+Client 119-requesting file from cache-07:05:27:300
+Client 132-connected to cache server-07:05:27:301
+Client 119-received file info-130026,3-07:05:27:301
+Client 132-requesting file from cache-07:05:27:301
+Client 119-received file-07:05:27:302
+Client 119-is complete-07:05:27:302
+Client 132-received file info-200031,4-07:05:27:303
+Client 132-received file-07:05:27:312
+Client 132-is complete-07:05:27:312
+Client 125-connecting to doc server-07:05:27:572
+Client 125-connected to doc server-07:05:27:575
+Client 125-requesting a file-07:05:27:576
+Client 125-received filename-07:05:27:577
+Client 125-sent filename-07:05:27:577
+Client 127-connecting to doc server-07:05:27:612
+Client 127-connected to doc server-07:05:27:615
+Client 127-requesting a file-07:05:27:616
+Client 127-received filename-07:05:27:616
+Client 127-sent filename-07:05:27:617
+Client 124-received cache address-07:05:27:977
+Client 124-connecting to cache server-localhost:57151-07:05:27:977
+Client 124-connected to cache server-07:05:27:978
+Client 124-requesting file from cache-07:05:27:978
+Client 124-received file info-110019,2-07:05:27:979
+Client 124-received file-07:05:27:986
+Client 124-is complete-07:05:27:986
+Client 128-connecting to doc server-07:05:28:202
+Client 128-connected to doc server-07:05:28:205
+Client 128-requesting a file-07:05:28:206
+Client 128-received filename-07:05:28:207
+Client 128-sent filename-07:05:28:207
+Client 131-received cache address-07:05:28:678
+Client 129-received cache address-07:05:28:678
+Client 129-connecting to cache server-localhost:57158-07:05:28:679
+Client 131-connecting to cache server-localhost:56195-07:05:28:679
+Client 129-connected to cache server-07:05:28:680
+Client 129-requesting file from cache-07:05:28:680
+Client 131-connected to cache server-07:05:28:680
+Client 131-requesting file from cache-07:05:28:680
+Client 129-received file info-200031,4-07:05:28:681
+Client 131-received file info-130026,3-07:05:28:681
+Client 131-received file-07:05:28:683
+Client 131-is complete-07:05:28:683
+Client 129-received file-07:05:28:691
+Client 129-is complete-07:05:28:691
+Client 133-received cache address-07:05:29:371
+Client 133-connecting to cache server-localhost:57165-07:05:29:372
+Client 133-connected to cache server-07:05:29:372
+Client 133-requesting file from cache-07:05:29:372
+Client 133-received file info-500019,9-07:05:29:373
+Client 133-received file-07:05:29:389
+Client 133-is complete-07:05:29:390
+Client 134-received cache address-07:05:30:37
+Client 134-connecting to cache server-localhost:57171-07:05:30:38
+Client 134-connected to cache server-07:05:30:39
+Client 134-requesting file from cache-07:05:30:39
+Client 134-received file info-130026,3-07:05:30:39
+Client 134-received file-07:05:30:47
+Client 134-is complete-07:05:30:47
+Client 117-received cache address-07:05:30:707
+Client 117-connecting to cache server-localhost:57177-07:05:30:708
+Client 117-connected to cache server-07:05:30:709
+Client 117-requesting file from cache-07:05:30:709
+Client 117-received file info-200031,4-07:05:30:709
+Client 117-received file-07:05:30:719
+Client 117-is complete-07:05:30:719
+Client 136-received cache address-07:05:31:399
+Client 136-connecting to cache server-localhost:57183-07:05:31:400
+Client 136-connected to cache server-07:05:31:400
+Client 136-requesting file from cache-07:05:31:400
+Client 136-received file info-500019,9-07:05:31:401
+Client 136-received file-07:05:31:415
+Client 136-is complete-07:05:31:416
+Client 118-received cache address-07:05:32:113
+Client 114-received cache address-07:05:32:113
+Client 118-connecting to cache server-localhost:57189-07:05:32:114
+Client 114-connecting to cache server-localhost:56195-07:05:32:114
+Client 114-connected to cache server-07:05:32:114
+Client 118-connected to cache server-07:05:32:114
+Client 114-requesting file from cache-07:05:32:115
+Client 118-requesting file from cache-07:05:32:115
+Client 114-received file info-130026,3-07:05:32:116
+Client 118-received file info-1000038,17-07:05:32:116
+Client 114-received file-07:05:32:117
+Client 114-is complete-07:05:32:118
+Client 118-received file-07:05:32:142
+Client 118-is complete-07:05:32:143
+Client 113-received cache address-07:05:32:838
+Client 113-connecting to cache server-localhost:57196-07:05:32:839
+Client 113-connected to cache server-07:05:32:839
+Client 113-requesting file from cache-07:05:32:840
+Client 113-received file info-1000038,17-07:05:32:840
+Client 113-received file-07:05:32:863
+Client 113-is complete-07:05:32:863
+Client 126-received cache address-07:05:33:526
+Client 135-received cache address-07:05:33:526
+Client 135-connecting to cache server-localhost:56240-07:05:33:526
+Client 126-connecting to cache server-localhost:57202-07:05:33:526
+Client 126-connected to cache server-07:05:33:527
+Client 135-connected to cache server-07:05:33:527
+Client 126-requesting file from cache-07:05:33:527
+Client 135-requesting file from cache-07:05:33:527
+Client 126-received file info-130026,3-07:05:33:528
+Client 135-received file info-350025,6-07:05:33:528
+Client 135-received file-07:05:33:531
+Client 135-is complete-07:05:33:531
+Client 126-received file-07:05:33:535
+Client 126-is complete-07:05:33:536
+Client 125-received cache address-07:05:34:213
+Client 125-connecting to cache server-localhost:57209-07:05:34:213
+Client 125-connected to cache server-07:05:34:214
+Client 125-requesting file from cache-07:05:34:214
+Client 125-received file info-350025,6-07:05:34:215
+Client 125-received file-07:05:34:227
+Client 125-is complete-07:05:34:228
+Client 127-received cache address-07:05:34:895
+Client 127-connecting to cache server-localhost:57215-07:05:34:896
+Client 127-connected to cache server-07:05:34:896
+Client 127-requesting file from cache-07:05:34:897
+Client 127-received file info-200031,4-07:05:34:897
+Client 127-received file-07:05:34:906
+Client 127-is complete-07:05:34:907
+Client 128-received cache address-07:05:35:579
+Client 128-connecting to cache server-localhost:57221-07:05:35:580
+Client 128-connected to cache server-07:05:35:581
+Client 128-requesting file from cache-07:05:35:581
+Client 128-received file info-350025,6-07:05:35:582
+Client 128-received file-07:05:35:596
+Client 128-is complete-07:05:35:597
+Client 139-started-file75k2.txt-07:05:38:6
+Client 138-started-file350k2.txt-07:05:38:26
+Client 140-started-file130k4.txt-07:05:38:42
+Client 137-started-file1m3.txt-07:05:38:66
+Client 141-started-file500k3.txt-07:05:38:84
+Client 140-connecting to doc server-07:05:39:339
+Client 140-connected to doc server-07:05:39:343
+Client 140-requesting a file-07:05:39:343
+Client 140-received filename-07:05:39:345
+Client 140-sent filename-07:05:39:346
+Client 140-received cache address-07:05:40:24
+Client 140-connecting to cache server-localhost:57238-07:05:40:25
+Client 140-connected to cache server-07:05:40:25
+Client 140-requesting file from cache-07:05:40:27
+Client 140-received file info-130026,3-07:05:40:28
+Client 140-received file-07:05:40:39
+Client 140-is complete-07:05:40:39
+Client 138-connecting to doc server-07:05:40:250
+Client 138-connected to doc server-07:05:40:252
+Client 138-requesting a file-07:05:40:252
+Client 138-received filename-07:05:40:253
+Client 138-sent filename-07:05:40:253
+Client 137-connecting to doc server-07:05:40:608
+Client 137-connected to doc server-07:05:40:611
+Client 137-requesting a file-07:05:40:612
+Client 137-received filename-07:05:40:613
+Client 137-sent filename-07:05:40:614
+Client 138-received cache address-07:05:40:959
+Client 138-connecting to cache server-localhost:57246-07:05:40:960
+Client 138-connected to cache server-07:05:40:961
+Client 138-requesting file from cache-07:05:40:961
+Client 138-received file info-350025,6-07:05:40:961
+Client 138-received file-07:05:40:978
+Client 138-is complete-07:05:40:978
+Client 141-connecting to doc server-07:05:41:376
+Client 141-connected to doc server-07:05:41:380
+Client 141-requesting a file-07:05:41:380
+Client 141-received filename-07:05:41:381
+Client 141-sent filename-07:05:41:382
+Client 137-received cache address-07:05:41:691
+Client 137-connecting to cache server-localhost:57253-07:05:41:692
+Client 137-connected to cache server-07:05:41:693
+Client 137-requesting file from cache-07:05:41:693
+Client 137-received file info-1000038,17-07:05:41:693
+Client 137-received file-07:05:41:717
+Client 137-is complete-07:05:41:718
+Client 143-started-file75k4.txt-07:05:41:994
+Client 147-started-file75k1.txt-07:05:42:16
+Client 144-started-file500k4.txt-07:05:42:26
+Client 142-started-file110k4.txt-07:05:42:39
+Client 148-started-file200k2.txt-07:05:42:40
+Client 145-started-file500k1.txt-07:05:42:57
+Client 146-started-file1m3.txt-07:05:42:74
+Client 141-received cache address-07:05:42:396
+Client 141-connecting to cache server-localhost:57273-07:05:42:397
+Client 141-connected to cache server-07:05:42:397
+Client 141-requesting file from cache-07:05:42:398
+Client 141-received file info-500019,9-07:05:42:399
+Client 141-received file-07:05:42:414
+Client 141-is complete-07:05:42:414
+Client 139-connecting to doc server-07:05:42:848
+Client 139-connected to doc server-07:05:42:851
+Client 139-requesting a file-07:05:42:852
+Client 139-received filename-07:05:42:853
+Client 139-sent filename-07:05:42:853
+Client 139-received cache address-07:05:42:854
+Client 139-connecting to cache server-localhost:56324-07:05:42:856
+Client 139-connected to cache server-07:05:42:858
+Client 139-requesting file from cache-07:05:42:859
+Client 139-received file info-75036,2-07:05:42:860
+Client 139-received file-07:05:42:863
+Client 139-is complete-07:05:42:864
+Client 145-connecting to doc server-07:05:43:69
+Client 145-connected to doc server-07:05:43:72
+Client 145-requesting a file-07:05:43:72
+Client 145-received filename-07:05:43:73
+Client 145-sent filename-07:05:43:74
+Client 145-received cache address-07:05:43:764
+Client 145-connecting to cache server-localhost:57282-07:05:43:764
+Client 145-connected to cache server-07:05:43:765
+Client 145-requesting file from cache-07:05:43:765
+Client 145-received file info-500019,9-07:05:43:766
+Client 145-received file-07:05:43:783
+Client 145-is complete-07:05:43:783
+Client 146-connecting to doc server-07:05:43:845
+Client 146-connected to doc server-07:05:43:846
+Client 146-requesting a file-07:05:43:846
+Client 146-received filename-07:05:43:846
+Client 146-sent filename-07:05:43:846
+Client 148-connecting to doc server-07:05:43:892
+Client 148-connected to doc server-07:05:43:894
+Client 148-requesting a file-07:05:43:895
+Client 148-received filename-07:05:43:895
+Client 148-sent filename-07:05:43:896
+Client 142-connecting to doc server-07:05:44:382
+Client 142-connected to doc server-07:05:44:385
+Client 142-requesting a file-07:05:44:386
+Client 142-received filename-07:05:44:387
+Client 142-sent filename-07:05:44:388
+Client 146-received cache address-07:05:44:577
+Client 146-connecting to cache server-localhost:57291-07:05:44:577
+Client 146-connected to cache server-07:05:44:578
+Client 146-requesting file from cache-07:05:44:578
+Client 146-received file info-1000038,17-07:05:44:580
+Client 146-received file-07:05:44:602
+Client 146-is complete-07:05:44:602
+Client 148-received cache address-07:05:45:249
+Client 148-connecting to cache server-localhost:57297-07:05:45:249
+Client 148-connected to cache server-07:05:45:250
+Client 148-requesting file from cache-07:05:45:250
+Client 148-received file info-200031,4-07:05:45:250
+Client 148-received file-07:05:45:260
+Client 148-is complete-07:05:45:260
+Client 143-connecting to doc server-07:05:45:319
+Client 143-connected to doc server-07:05:45:320
+Client 143-requesting a file-07:05:45:321
+Client 143-received filename-07:05:45:322
+Client 143-sent filename-07:05:45:322
+Client 147-connecting to doc server-07:05:45:790
+Client 147-connected to doc server-07:05:45:791
+Client 147-requesting a file-07:05:45:791
+Client 147-received filename-07:05:45:791
+Client 147-sent filename-07:05:45:792
+Client 142-received cache address-07:05:45:879
+Client 142-connecting to cache server-localhost:57305-07:05:45:880
+Client 142-connected to cache server-07:05:45:880
+Client 142-requesting file from cache-07:05:45:880
+Client 142-received file info-110019,2-07:05:45:881
+Client 142-received file-07:05:45:887
+Client 142-is complete-07:05:45:888
+Client 143-received cache address-07:05:46:560
+Client 143-connecting to cache server-localhost:57311-07:05:46:560
+Client 143-connected to cache server-07:05:46:561
+Client 143-requesting file from cache-07:05:46:561
+Client 143-received file info-75036,2-07:05:46:561
+Client 143-received file-07:05:46:567
+Client 143-is complete-07:05:46:568
+Client 144-connecting to doc server-07:05:47:32
+Client 144-connected to doc server-07:05:47:33
+Client 144-requesting a file-07:05:47:34
+Client 144-received filename-07:05:47:34
+Client 144-sent filename-07:05:47:34
+Client 147-received cache address-07:05:47:204
+Client 147-connecting to cache server-localhost:57318-07:05:47:204
+Client 147-connected to cache server-07:05:47:205
+Client 147-requesting file from cache-07:05:47:205
+Client 147-received file info-75036,2-07:05:47:205
+Client 147-received file-07:05:47:211
+Client 147-is complete-07:05:47:211
+Client 144-received cache address-07:05:47:884
+Client 144-connecting to cache server-localhost:57324-07:05:47:885
+Client 144-connected to cache server-07:05:47:886
+Client 144-requesting file from cache-07:05:47:886
+Client 144-received file info-500019,9-07:05:47:887
+Client 144-received file-07:05:47:902
+Client 144-is complete-07:05:47:902
+Client 149-started-file350k2.txt-07:06:05:973
+Client 149-connecting to doc server-07:06:06:866
+Client 149-connected to doc server-07:06:06:869
+Client 149-requesting a file-07:06:06:869
+Client 149-received filename-07:06:06:870
+Client 149-sent filename-07:06:06:871
+Client 149-received cache address-07:06:07:566
+Client 149-connecting to cache server-localhost:57333-07:06:07:567
+Client 149-connected to cache server-07:06:07:568
+Client 149-requesting file from cache-07:06:07:568
+Client 149-received file info-350025,6-07:06:07:569
+Client 149-received file-07:06:07:582
+Client 149-is complete-07:06:07:582

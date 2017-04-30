@@ -5,11 +5,12 @@ import java.util.concurrent.*;
 import java.net.*;
 import java.util.Date;
 import java.util.Scanner;
+import java.util.Random;
 
 public class a3main {
 	
 	public static void main(String args[]) {
-
+		Random rand = new Random();
 		//Start up a logging server thread to collect information from the 
 		// components of the experiment.
 		String logServerPort;
@@ -34,6 +35,15 @@ public class a3main {
 			docServer.inheritIO();
 			Process runDocServer = docServer.start();
 			
+			//Pause to give time for doc server to get ready?
+			int n = 1000;
+			try {
+				Thread.sleep(n);
+			} catch (InterruptedException e){
+				System.out.println(e);
+			}
+
+
 			//Read in the test scenario file, each line is a new client, launch clients per line.
 			ClientInfoNode head = null;
 			ClientInfoNode currentPtr = null;
@@ -73,6 +83,8 @@ public class a3main {
 			Process[] runClients = new Process[clientCount];
 			currentPtr = head;
 
+			int groupCount = rand.nextInt(15);
+
 			for(int z = 0; z < runClients.length; z++){
 				ProcessBuilder client = new ProcessBuilder("java.exe", "Client", "Client " + z, logServerPort, currentPtr.filenameWanted, currentPtr.decisionWaitTime);
 				client.inheritIO();
@@ -81,6 +93,20 @@ public class a3main {
 				if (currentPtr == null){
 					break;
 				}
+
+				//Launch the processes in chunks to prevent overloading the system
+				if(groupCount > 0){
+					groupCount--;
+				} else {
+					n = rand.nextInt(10) * 100;
+					try {
+						Thread.sleep(n);
+					} catch (InterruptedException e){
+						System.out.println(e);
+					}
+					groupCount = rand.nextInt(15);
+				}
+
 			}		
 			
 			//Wait for all clients to complete
@@ -155,7 +181,7 @@ class StartServer extends Thread{
 				try{
 					Socket clientSocket = listenSocket.accept();
 					Connection c = new Connection(clientSocket, logFileOutput);
-					System.out.println(".");
+					//System.out.println(".");
 				} catch(IOException e) {}
 				
 			}
@@ -233,7 +259,7 @@ class LogFileWriter extends Thread{
 		this.logEntryQueue = logEntryQueueIn;
 		//Open the file for writing
 		try {
-			outToLogFile = new FileWriter("logFile.txt", true);
+			outToLogFile = new FileWriter("logFile.txt");
 		} catch (IOException e) {System.out.println("log file failed: " + e);}
 		this.start();	//launch the thread
 

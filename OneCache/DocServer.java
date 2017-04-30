@@ -11,7 +11,7 @@ public class DocServer{
 	static DataOutputStream outToLogServer = null;
 	static CacheManager cacheManager = null;
 
-	final static int maxCacheProcs = 5; //Set the number of cache processes to have active concurrently
+	final static int maxCacheProcs = 4; //Set the number of cache processes to have active concurrently
 
 	Boolean shutDown = false;
 
@@ -57,7 +57,7 @@ public class DocServer{
 
 		
 		//Start the CacheManager - TODO get a list of files and usage from data layer.
-		cacheManager = new CacheManager(maxCacheProcs, outToLogServer, logServerPort);
+		cacheManager = new CacheManager(maxCacheProcs, logServerPort);
 
 		//Start listening for client requests
 		ThruChannel channel = new ThruChannel();
@@ -225,18 +225,24 @@ class CacheManager {
 	private Process[] caches = null;
 	private Semaphore mutex = new Semaphore(1);
 
-	DataOutputStream outToLogServer = null;
+	static Socket logServerSocket = null;
+	static DataInputStream inFromLogServer = null;
+	static DataOutputStream outToLogServer = null;	
 
-	String logServerPort = "";
 
-	public CacheManager(int maxCacheProcsIn, DataOutputStream outToLogServerIn, int logServerPortIn){
-		if (maxCacheProcsIn > 6){
-			maxCacheProcs = 6;
+	int logServerPort = 0;
+
+	public CacheManager(int maxCacheProcsIn, int logServerPortIn){
+		if (maxCacheProcsIn > 20){
+			maxCacheProcs = 20;
 		} else {
 			maxCacheProcs = maxCacheProcsIn;
 		}
-		outToLogServer = outToLogServerIn;
-		logServerPort = String.valueOf(logServerPortIn);
+
+		logServerPort = logServerPortIn;
+
+		connectLogServer(logServerPort);
+		//msgLogServer("Cache manager started.");
 
 		// New cache manager
 		// Load up the list of files with given info.
@@ -245,12 +251,18 @@ class CacheManager {
 		try{
 			mutex.acquire();
 
-			addFile("file75k1.txt", 0);
-			addFile("file110k1.txt", 0);
-			addFile("file130k1.txt", 0);
-			addFile("file200k1.txt", 0);
-			addFile("file350k1.txt", 0);
-			addFile("file500k1.txt", 0);
+			String fileNameGen = "";
+
+			for(int r=0; r < 5; r++){
+				addFile("file75k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file110k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file130k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file200k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file350k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file500k" + String.valueOf(r+1) + ".txt", 0);
+				addFile("file1m" + String.valueOf(r+1) + ".txt", 0);
+			}
+			
 		
 		} catch(InterruptedException e){
 
@@ -293,10 +305,11 @@ class CacheManager {
 			mutex.acquire();
 			//Search for a file in the list.
 			FileInfoNode currentFile = findFilename(filenameIn);
+			//msgLogServer("CacheManager, finding " + filenameIn);
 
 			// Check process index
 			if (currentFile.cacheProcHookIndex == -1){
-
+				//msgLogServer("CacheManager, filename not in cache.");
 				//The file is not currently in a cache
 				if(cacheProcsCount < maxCacheProcs){
 					//Just start a new cache process for the given filename.
@@ -306,7 +319,7 @@ class CacheManager {
 						newCacheProcHookIndex++;
 					}
 					
-						ProcessBuilder cacheProcess = new ProcessBuilder("java.exe", "Cache", currentFile.filename, logServerPort);
+						ProcessBuilder cacheProcess = new ProcessBuilder("java.exe", "Cache", currentFile.filename, String.valueOf(logServerPort));
 						try {
 							caches[newCacheProcHookIndex] = cacheProcess.start();
 							cacheProcsCount++;
@@ -317,6 +330,7 @@ class CacheManager {
 						//Look through the list of files
 						// get a pointer to a cache that has the lowest number
 						// of accesses.
+					//msgLogServer("CacheManager, killing a cache.");
 					FileInfoNode currentPtr = head;
 					FileInfoNode killCandidate = null;
 					while(currentPtr != null){
@@ -333,6 +347,9 @@ class CacheManager {
 									currentPtr = currentPtr.next;
 								}
 							}
+						} else {
+							//Move pointer
+							currentPtr = currentPtr.next;
 						}
 					}
 						//Send the cache process the "quit" command.
@@ -362,7 +379,7 @@ class CacheManager {
 					killCandidate = null;
 
 						// Start a new cache process for the file, recycle the cache hook index
-					ProcessBuilder cacheProcess = new ProcessBuilder("java.exe", "Cache", currentFile.filename, logServerPort);
+					ProcessBuilder cacheProcess = new ProcessBuilder("java.exe", "Cache", currentFile.filename, String.valueOf(logServerPort));
 					try {
 						caches[newCacheProcHookIndex] = cacheProcess.start();
 						cacheProcsCount++;
@@ -478,6 +495,51 @@ class CacheManager {
 			}
 		}
 	}
+
+
+
+	public static void connectLogServer (int logServerPort){
+		try{
+			logServerSocket = new Socket("localhost", logServerPort);
+			inFromLogServer = new DataInputStream(logServerSocket.getInputStream());
+			outToLogServer = new DataOutputStream(logServerSocket.getOutputStream());
+
+		} catch (UnknownHostException e){System.out.println("DS-Sock3: " + e.getMessage());
+		} catch (IOException e){System.out.println("DS-IO3: " + e.getMessage());
+		} finally{}
+
+
+	}
+
+	public static void disconnectLogServer(){
+		//msgLogServer("exit");
+		if(logServerSocket!=null){
+			try{
+				logServerSocket.close();
+			} catch(IOException e){
+				/*Close Failed*/}
+		}
+	}
+
+	public static void msgLogServer(String msgToSend){
+		String data;
+
+		try {
+			outToLogServer.writeUTF(msgToSend);	//UTF is a string encoding.
+		} catch (IOException e){System.out.println("DS-IO: " + e.getMessage());}
+		
+		try {
+			data = inFromLogServer.readUTF();
+			//System.out.println("Doc Server: Response Received: " + data);
+		} catch (IOException e){System.out.println("DS-IO: " + e.getMessage());}
+	}
+
+
+
+
+
+
+
 
 }
 

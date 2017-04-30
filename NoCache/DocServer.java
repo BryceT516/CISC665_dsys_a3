@@ -19,7 +19,7 @@ public class DocServer{
 		//Connect to the log server
 		connectLogServer(logServerPort);
 		//Log starting up
-		msgLogServer("DocServer starting...");
+		//msgLogServer("DocServer starting...");
 		//Start the data layer process
 		try {
 			ProcessBuilder dataLayerServer = new ProcessBuilder("java.exe", "dataLayer"); //Not sending any arguments
@@ -169,15 +169,10 @@ class DocServerConnection extends Thread{
 					switch (data.toLowerCase()){
 						case "filerequest": //Document request:
 							//Query for the file name
+							out.writeUTF("filename");
 							//Receive the file name
-							//Check if the file name is in the cache
-								//In cache - send the IP address and port number
-								//cache miss - 
-									//Kill a cache
-									//Spawn a cache with the new file request
-									//Once the IP address and port number return
-									//Send the IP address and port number to client
-									out.writeUTF("localhost:61627");
+							data = in.readUTF();
+									out.writeUTF("localhost:61627"); //Hard coded to send the client to the data layer.
 									//Update the cache list
 							conversing = false;//End connection
 							break;

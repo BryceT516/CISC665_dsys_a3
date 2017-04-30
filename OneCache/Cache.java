@@ -176,10 +176,6 @@ class CacheFileServerConnection extends Thread{
 				} else {
 					switch (data.toLowerCase()){
 						case "filerequest": //Document request:
-							out.writeUTF("filename");
-							String filenameIn = in.readUTF();
-							//This should verify the filename is the correct filename for this cache,
-							// TODO: add this validation.
 
 							//Send the total file size and the number of chunks to be sent.
 							out.writeUTF(fileTxInfo);
